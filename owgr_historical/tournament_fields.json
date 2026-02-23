@@ -1,0 +1,6359 @@
+{
+  "PlayersChampionship2023": {
+    "Scottie Scheffler": {
+      "Finishing Position": 1
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 2
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 3
+    },
+    "Tom Hoge": {
+      "Finishing Position": 3
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 5
+    },
+    "Max Homa": {
+      "Finishing Position": 6
+    },
+    "Justin Suh": {
+      "Finishing Position": 6
+    },
+    "Justin Rose": {
+      "Finishing Position": 6
+    },
+    "Sungjae Im": {
+      "Finishing Position": 6
+    },
+    "David Lingmerth": {
+      "Finishing Position": 6
+    },
+    "Cam Davis": {
+      "Finishing Position": 6
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 6
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 13
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 13
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 13
+    },
+    "Adam Svensson": {
+      "Finishing Position": 13
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 13
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 13
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 19
+    },
+    "Russell Henley": {
+      "Finishing Position": 19
+    },
+    "Tony Finau": {
+      "Finishing Position": 19
+    },
+    "Brandon Wu": {
+      "Finishing Position": 19
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 19
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 19
+    },
+    "Jason Day": {
+      "Finishing Position": 19
+    },
+    "Aaron Rai": {
+      "Finishing Position": 19
+    },
+    "Eric Cole": {
+      "Finishing Position": 27
+    },
+    "Danny Willett": {
+      "Finishing Position": 27
+    },
+    "Brendon Todd": {
+      "Finishing Position": 27
+    },
+    "Ryan Fox": {
+      "Finishing Position": 27
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 27
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 27
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 27
+    },
+    "Chad Ramey": {
+      "Finishing Position": 27
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 35
+    },
+    "Shane Lowry": {
+      "Finishing Position": 35
+    },
+    "Austin Smotherman": {
+      "Finishing Position": 35
+    },
+    "Sam Burns": {
+      "Finishing Position": 35
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 35
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 35
+    },
+    "Taylor Moore": {
+      "Finishing Position": 35
+    },
+    "Dylan Wu": {
+      "Finishing Position": 35
+    },
+    "Ben Griffin": {
+      "Finishing Position": 35
+    },
+    "Chesson Hadley": {
+      "Finishing Position": 44
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 44
+    },
+    "Sam Ryder": {
+      "Finishing Position": 44
+    },
+    "Brian Harman": {
+      "Finishing Position": 44
+    },
+    "Kramer Hickok": {
+      "Finishing Position": 44
+    },
+    "Garrick Higgo": {
+      "Finishing Position": 44
+    },
+    "Taylor Montgomery": {
+      "Finishing Position": 44
+    },
+    "Tom Kim": {
+      "Finishing Position": 51
+    },
+    "Lucas Glover": {
+      "Finishing Position": 51
+    },
+    "Cameron Young": {
+      "Finishing Position": 51
+    },
+    "Ben Martin": {
+      "Finishing Position": 54
+    },
+    "Matthias Schwab": {
+      "Finishing Position": 54
+    },
+    "Jerry Kelly": {
+      "Finishing Position": 54
+    },
+    "Gary Woodland": {
+      "Finishing Position": 54
+    },
+    "Will Gordon": {
+      "Finishing Position": 54
+    },
+    "Tyler Duncan": {
+      "Finishing Position": 54
+    },
+    "Justin Thomas": {
+      "Finishing Position": 60
+    },
+    "Joel Dahmen": {
+      "Finishing Position": 60
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 60
+    },
+    "Nate Lashley": {
+      "Finishing Position": 60
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 60
+    },
+    "Sepp Straka": {
+      "Finishing Position": 65
+    },
+    "Patton Kizzire": {
+      "Finishing Position": 65
+    },
+    "Alex Smalley": {
+      "Finishing Position": 65
+    },
+    "Davis Thompson": {
+      "Finishing Position": 68
+    },
+    "Scott Stallings": {
+      "Finishing Position": 69
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 69
+    },
+    "Adam Scott": {
+      "Finishing Position": 71
+    },
+    "Aaron Baddeley": {
+      "Finishing Position": 72
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 73
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 74
+    },
+    "Kevin Kisner": {
+      "Finishing Position": 75
+    },
+    "Thomas Detry": {
+      "Finishing Position": 999
+    },
+    "Luke List": {
+      "Finishing Position": 999
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 999
+    },
+    "Troy Merritt": {
+      "Finishing Position": 999
+    },
+    "Hayden Buckley": {
+      "Finishing Position": 999
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 999
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 999
+    },
+    "Matt Wallace": {
+      "Finishing Position": 999
+    },
+    "Kevin Streelman": {
+      "Finishing Position": 999
+    },
+    "Scott Piercy": {
+      "Finishing Position": 999
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 999
+    },
+    "Harrison Endycott": {
+      "Finishing Position": 999
+    },
+    "Ryan Palmer": {
+      "Finishing Position": 999
+    },
+    "Kevin Tway": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "Peter Malnati": {
+      "Finishing Position": 999
+    },
+    "Chez Reavie": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Harris English": {
+      "Finishing Position": 999
+    },
+    "Michael Thompson": {
+      "Finishing Position": 999
+    },
+    "Alex Noren": {
+      "Finishing Position": 999
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "James Hahn": {
+      "Finishing Position": 999
+    },
+    "Joseph Bramlett": {
+      "Finishing Position": 999
+    },
+    "Nick Hardy": {
+      "Finishing Position": 999
+    },
+    "Corey Conners": {
+      "Finishing Position": 999
+    },
+    "J.T. Poston": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Erik Barnes": {
+      "Finishing Position": 999
+    },
+    "Callum Tarren": {
+      "Finishing Position": 999
+    },
+    "Robby Shelton": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Robert Streb": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Greyson Sigg": {
+      "Finishing Position": 999
+    },
+    "Justin Lower": {
+      "Finishing Position": 999
+    },
+    "Ryan Armour": {
+      "Finishing Position": 999
+    },
+    "Dylan Frittelli": {
+      "Finishing Position": 999
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 999
+    },
+    "Doc Redman": {
+      "Finishing Position": 999
+    },
+    "Webb Simpson": {
+      "Finishing Position": 999
+    },
+    "Beau Hossler": {
+      "Finishing Position": 999
+    },
+    "Russell Knox": {
+      "Finishing Position": 999
+    },
+    "Billy Horschel": {
+      "Finishing Position": 999
+    },
+    "Ryan Brehm": {
+      "Finishing Position": 999
+    },
+    "Tyson Alexander": {
+      "Finishing Position": 999
+    },
+    "S.H. Kim": {
+      "Finishing Position": 999
+    },
+    "Lee Hodges": {
+      "Finishing Position": 999
+    },
+    "Adam Long": {
+      "Finishing Position": 999
+    },
+    "Stewart Cink": {
+      "Finishing Position": 999
+    },
+    "Doug Ghim": {
+      "Finishing Position": 999
+    },
+    "Andrew Novak": {
+      "Finishing Position": 999
+    },
+    "Matt NeSmith": {
+      "Finishing Position": 999
+    },
+    "Kelly Kraft": {
+      "Finishing Position": 999
+    },
+    "Aaron Wise": {
+      "Finishing Position": 999
+    },
+    "David Lipsky": {
+      "Finishing Position": 999
+    },
+    "Trey Mullinax": {
+      "Finishing Position": 999
+    },
+    "Martin Laird": {
+      "Finishing Position": 999
+    },
+    "Nick Watney": {
+      "Finishing Position": 999
+    },
+    "Max McGreevy": {
+      "Finishing Position": 999
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 999
+    },
+    "Jon Rahm": {
+      "Finishing Position": 999
+    }
+  },
+  "Masters2023": {
+    "Jon Rahm": {
+      "Finishing Position": 1
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 2
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 2
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 4
+    },
+    "Patrick Reed": {
+      "Finishing Position": 4
+    },
+    "Russell Henley": {
+      "Finishing Position": 4
+    },
+    "Cameron Young": {
+      "Finishing Position": 7
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 7
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 9
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 10
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 10
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 10
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 10
+    },
+    "Gary Woodland": {
+      "Finishing Position": 14
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 14
+    },
+    "Tom Kim": {
+      "Finishing Position": 16
+    },
+    "Sungjae Im": {
+      "Finishing Position": 16
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 16
+    },
+    "Shane Lowry": {
+      "Finishing Position": 16
+    },
+    "Justin Rose": {
+      "Finishing Position": 16
+    },
+    "Sam Bennett": {
+      "Finishing Position": 16
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 16
+    },
+    "Chris Kirk": {
+      "Finishing Position": 23
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 23
+    },
+    "K.H. Lee": {
+      "Finishing Position": 23
+    },
+    "Scott Stallings": {
+      "Finishing Position": 26
+    },
+    "Tony Finau": {
+      "Finishing Position": 26
+    },
+    "Ryan Fox": {
+      "Finishing Position": 26
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 29
+    },
+    "Harold Varner III": {
+      "Finishing Position": 29
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 29
+    },
+    "Sam Burns": {
+      "Finishing Position": 29
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 33
+    },
+    "J.T. Poston": {
+      "Finishing Position": 34
+    },
+    "Talor Gooch": {
+      "Finishing Position": 34
+    },
+    "Zach Johnson": {
+      "Finishing Position": 34
+    },
+    "Cameron Smith": {
+      "Finishing Position": 34
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 34
+    },
+    "Adam Scott": {
+      "Finishing Position": 39
+    },
+    "Abraham Ancer": {
+      "Finishing Position": 39
+    },
+    "Taylor Moore": {
+      "Finishing Position": 39
+    },
+    "Jason Day": {
+      "Finishing Position": 39
+    },
+    "Mito Pereira": {
+      "Finishing Position": 43
+    },
+    "Harris English": {
+      "Finishing Position": 43
+    },
+    "Max Homa": {
+      "Finishing Position": 43
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 46
+    },
+    "Sepp Straka": {
+      "Finishing Position": 46
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 48
+    },
+    "Thomas Pieters": {
+      "Finishing Position": 48
+    },
+    "Fred Couples": {
+      "Finishing Position": 50
+    },
+    "Charl Schwartzel": {
+      "Finishing Position": 50
+    },
+    "Billy Horschel": {
+      "Finishing Position": 52
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 53
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Mike Weir": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Bernhard Langer": {
+      "Finishing Position": 999
+    },
+    "Ben Carr": {
+      "Finishing Position": 999
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 999
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 999
+    },
+    "Kevin Kisner": {
+      "Finishing Position": 999
+    },
+    "Cameron Champ": {
+      "Finishing Position": 999
+    },
+    "Kazuki Higa": {
+      "Finishing Position": 999
+    },
+    "Danny Willett": {
+      "Finishing Position": 999
+    },
+    "Vijay Singh": {
+      "Finishing Position": 999
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 999
+    },
+    "Aldrich Potgieter": {
+      "Finishing Position": 999
+    },
+    "Brian Harman": {
+      "Finishing Position": 999
+    },
+    "Matthew McClean (a)": {
+      "Finishing Position": 999
+    },
+    "Mateo Fern\u00e1ndez de Oliveira": {
+      "Finishing Position": 999
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 999
+    },
+    "Harrison Crowe": {
+      "Finishing Position": 999
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 999
+    },
+    "Corey Conners": {
+      "Finishing Position": 999
+    },
+    "Jason Kokrak": {
+      "Finishing Position": 999
+    },
+    "Alex Noren": {
+      "Finishing Position": 999
+    },
+    "Gordon Sargent": {
+      "Finishing Position": 999
+    },
+    "Bubba Watson": {
+      "Finishing Position": 999
+    },
+    "Jos\u00e9 Mar\u00eda Olaz\u00e1bal": {
+      "Finishing Position": 999
+    },
+    "Adam Svensson": {
+      "Finishing Position": 999
+    },
+    "Larry Mize": {
+      "Finishing Position": 999
+    },
+    "Sandy Lyle": {
+      "Finishing Position": 999
+    },
+    "Kevin Na": {
+      "Finishing Position": 999
+    },
+    "Louis Oosthuizen": {
+      "Finishing Position": 999
+    },
+    "Tiger Woods": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    }
+  },
+  "PGAChampionship2023": {
+    "Brooks Koepka": {
+      "Finishing Position": 1
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 2
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 2
+    },
+    "Cam Davis": {
+      "Finishing Position": 4
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 4
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 4
+    },
+    "Sepp Straka": {
+      "Finishing Position": 7
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 7
+    },
+    "Cameron Smith": {
+      "Finishing Position": 9
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 9
+    },
+    "Justin Rose": {
+      "Finishing Position": 9
+    },
+    "Victor Perez": {
+      "Finishing Position": 12
+    },
+    "Shane Lowry": {
+      "Finishing Position": 12
+    },
+    "Corey Conners": {
+      "Finishing Position": 12
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 15
+    },
+    "Eric Cole": {
+      "Finishing Position": 15
+    },
+    "Michael Block": {
+      "Finishing Position": 15
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 18
+    },
+    "Mito Pereira": {
+      "Finishing Position": 18
+    },
+    "Patrick Reed": {
+      "Finishing Position": 18
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 18
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 18
+    },
+    "Alex Smalley": {
+      "Finishing Position": 23
+    },
+    "Matt NeSmith": {
+      "Finishing Position": 23
+    },
+    "Ryan Fox": {
+      "Finishing Position": 23
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 26
+    },
+    "Hayden Buckley": {
+      "Finishing Position": 26
+    },
+    "Justin Suh": {
+      "Finishing Position": 26
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 29
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 29
+    },
+    "Callum Tarren": {
+      "Finishing Position": 29
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 29
+    },
+    "Adam Scott": {
+      "Finishing Position": 29
+    },
+    "K.H. Lee": {
+      "Finishing Position": 29
+    },
+    "Harold Varner III": {
+      "Finishing Position": 29
+    },
+    "Chris Kirk": {
+      "Finishing Position": 29
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 29
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 29
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 29
+    },
+    "Thomas Detry": {
+      "Finishing Position": 40
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 40
+    },
+    "J.T. Poston": {
+      "Finishing Position": 40
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 40
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 40
+    },
+    "Thomas Pieters": {
+      "Finishing Position": 40
+    },
+    "Chez Reavie": {
+      "Finishing Position": 40
+    },
+    "Beau Hossler": {
+      "Finishing Position": 40
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 40
+    },
+    "Adam Svensson": {
+      "Finishing Position": 40
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 50
+    },
+    "Jon Rahm": {
+      "Finishing Position": 50
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 50
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 50
+    },
+    "Dean Burmester": {
+      "Finishing Position": 54
+    },
+    "Lee Hodges": {
+      "Finishing Position": 55
+    },
+    "Max Homa": {
+      "Finishing Position": 55
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 55
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 58
+    },
+    "Zach Johnson": {
+      "Finishing Position": 58
+    },
+    "Tom Hoge": {
+      "Finishing Position": 58
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 58
+    },
+    "Rikuya Hoshino": {
+      "Finishing Position": 62
+    },
+    "Sihwan Kim": {
+      "Finishing Position": 62
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 62
+    },
+    "Taylor Montgomery": {
+      "Finishing Position": 65
+    },
+    "Justin Thomas": {
+      "Finishing Position": 65
+    },
+    "Pablo Larraz\u00e1bal": {
+      "Finishing Position": 65
+    },
+    "Matt Wallace": {
+      "Finishing Position": 65
+    },
+    "Ben Taylor": {
+      "Finishing Position": 69
+    },
+    "Joel Dahmen": {
+      "Finishing Position": 69
+    },
+    "Yannik Paul": {
+      "Finishing Position": 69
+    },
+    "Taylor Moore": {
+      "Finishing Position": 72
+    },
+    "Tony Finau": {
+      "Finishing Position": 72
+    },
+    "Sam Stevens": {
+      "Finishing Position": 72
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 75
+    },
+    "Kazuki Higa": {
+      "Finishing Position": 76
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 999
+    },
+    "Adri Arnaus": {
+      "Finishing Position": 999
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 999
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 999
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 999
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 999
+    },
+    "Jordan Smith": {
+      "Finishing Position": 999
+    },
+    "Brendan Steele": {
+      "Finishing Position": 999
+    },
+    "Brian Harman": {
+      "Finishing Position": 999
+    },
+    "Billy Horschel": {
+      "Finishing Position": 999
+    },
+    "Brendon Todd": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "Alex Noren": {
+      "Finishing Position": 999
+    },
+    "Anirban Lahiri": {
+      "Finishing Position": 999
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Russell Henley": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Luke Donald": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Trey Mullinax": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    },
+    "Jason Day": {
+      "Finishing Position": 999
+    },
+    "Adrian Otaegui": {
+      "Finishing Position": 999
+    },
+    "Scott Stallings": {
+      "Finishing Position": 999
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Callum Shinkwin": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Tom Kim": {
+      "Finishing Position": 999
+    },
+    "Colin Inglis": {
+      "Finishing Position": 999
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 999
+    },
+    "David Micheluzzi": {
+      "Finishing Position": 999
+    },
+    "Nick Hardy": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Brandon Wu": {
+      "Finishing Position": 999
+    },
+    "Harris English": {
+      "Finishing Position": 999
+    },
+    "Cameron Young": {
+      "Finishing Position": 999
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 999
+    },
+    "Jimmy Walker": {
+      "Finishing Position": 999
+    },
+    "Matt Cahill": {
+      "Finishing Position": 999
+    },
+    "Talor Gooch": {
+      "Finishing Position": 999
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 999
+    },
+    "Y.E. Yang": {
+      "Finishing Position": 999
+    },
+    "Abraham Ancer": {
+      "Finishing Position": 999
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 999
+    },
+    "Danny Willett": {
+      "Finishing Position": 999
+    },
+    "Steven Alker": {
+      "Finishing Position": 999
+    },
+    "Braden Shattuck": {
+      "Finishing Position": 999
+    },
+    "Sam Ryder": {
+      "Finishing Position": 999
+    },
+    "Greg Koch": {
+      "Finishing Position": 999
+    },
+    "Steve Holmes": {
+      "Finishing Position": 999
+    },
+    "Sadom Kaewkanjana": {
+      "Finishing Position": 999
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 999
+    },
+    "Jeremy Wells": {
+      "Finishing Position": 999
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Ockie Strydom": {
+      "Finishing Position": 999
+    },
+    "David Lingmerth": {
+      "Finishing Position": 999
+    },
+    "Ben Kern": {
+      "Finishing Position": 999
+    },
+    "Kevin Kisner": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "JJ Killeen": {
+      "Finishing Position": 999
+    },
+    "Webb Simpson": {
+      "Finishing Position": 999
+    },
+    "Aaron Wise": {
+      "Finishing Position": 999
+    },
+    "Sam Burns": {
+      "Finishing Position": 999
+    },
+    "Chris French": {
+      "Finishing Position": 999
+    },
+    "Jesse Droemer": {
+      "Finishing Position": 999
+    },
+    "John Somers": {
+      "Finishing Position": 999
+    },
+    "Alex Beach": {
+      "Finishing Position": 999
+    },
+    "Anthony Cordes": {
+      "Finishing Position": 999
+    },
+    "Josh Speight": {
+      "Finishing Position": 999
+    },
+    "Wyatt Worthington II": {
+      "Finishing Position": 999
+    },
+    "Russell Grove": {
+      "Finishing Position": 999
+    },
+    "Kenny Pigman": {
+      "Finishing Position": 999
+    },
+    "Gabe Reynolds": {
+      "Finishing Position": 999
+    },
+    "Shaun Micheel": {
+      "Finishing Position": 999
+    },
+    "Chris Sanger": {
+      "Finishing Position": 999
+    }
+  },
+  "USOpen2023": {
+    "Wyndham Clark": {
+      "Finishing Position": 1
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 2
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 3
+    },
+    "Cameron Smith": {
+      "Finishing Position": 4
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 5
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 5
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 5
+    },
+    "Tom Kim": {
+      "Finishing Position": 8
+    },
+    "Harris English": {
+      "Finishing Position": 8
+    },
+    "Jon Rahm": {
+      "Finishing Position": 10
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 10
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 10
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 10
+    },
+    "Russell Henley": {
+      "Finishing Position": 14
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 14
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 14
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 17
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 17
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 19
+    },
+    "Jordan Smith": {
+      "Finishing Position": 20
+    },
+    "Nick Hardy": {
+      "Finishing Position": 20
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 20
+    },
+    "Shane Lowry": {
+      "Finishing Position": 20
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 20
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 20
+    },
+    "Ryutaro Nagano": {
+      "Finishing Position": 20
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 27
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 27
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 27
+    },
+    "Justin Suh": {
+      "Finishing Position": 27
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 27
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 32
+    },
+    "Dylan Wu": {
+      "Finishing Position": 32
+    },
+    "Cameron Young": {
+      "Finishing Position": 32
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 32
+    },
+    "Sam Burns": {
+      "Finishing Position": 32
+    },
+    "Tony Finau": {
+      "Finishing Position": 32
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 32
+    },
+    "David Puig": {
+      "Finishing Position": 39
+    },
+    "Gordon Sargent": {
+      "Finishing Position": 39
+    },
+    "Eric Cole": {
+      "Finishing Position": 39
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 39
+    },
+    "Sam Bennett": {
+      "Finishing Position": 43
+    },
+    "Sam Stevens": {
+      "Finishing Position": 43
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 43
+    },
+    "Ryan Fox": {
+      "Finishing Position": 43
+    },
+    "Billy Horschel": {
+      "Finishing Position": 43
+    },
+    "Brian Harman": {
+      "Finishing Position": 43
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 49
+    },
+    "Sebasti\u00e1n Mu\u00f1oz": {
+      "Finishing Position": 49
+    },
+    "Charley Hoffman": {
+      "Finishing Position": 49
+    },
+    "Kevin Streelman": {
+      "Finishing Position": 49
+    },
+    "Gary Woodland": {
+      "Finishing Position": 49
+    },
+    "Abraham Ancer": {
+      "Finishing Position": 54
+    },
+    "Romain Langasque": {
+      "Finishing Position": 54
+    },
+    "Patrick Reed": {
+      "Finishing Position": 56
+    },
+    "Ryan Gerard": {
+      "Finishing Position": 56
+    },
+    "Yuto Katsuragawa": {
+      "Finishing Position": 58
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 59
+    },
+    "Jacob Solomon": {
+      "Finishing Position": 60
+    },
+    "Adam Svensson": {
+      "Finishing Position": 60
+    },
+    "Ben Carr": {
+      "Finishing Position": 62
+    },
+    "Ryo Ishikawa": {
+      "Finishing Position": 63
+    },
+    "Aldrich Potgieter": {
+      "Finishing Position": 64
+    },
+    "Maxwell Moldovan": {
+      "Finishing Position": 65
+    },
+    "Kyle Mueller": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 999
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Mito Pereira": {
+      "Finishing Position": 999
+    },
+    "Taylor Moore": {
+      "Finishing Position": 999
+    },
+    "Vincent Norrman": {
+      "Finishing Position": 999
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 999
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 999
+    },
+    "Patrick Cover": {
+      "Finishing Position": 999
+    },
+    "Andrew Svoboda": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Alex Noren": {
+      "Finishing Position": 999
+    },
+    "Paul Barjon": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Simon Forsstr\u00f6m": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "J.J. Grey": {
+      "Finishing Position": 999
+    },
+    "Thomas Pieters": {
+      "Finishing Position": 999
+    },
+    "Sepp Straka": {
+      "Finishing Position": 999
+    },
+    "Corey Conners": {
+      "Finishing Position": 999
+    },
+    "Max Homa": {
+      "Finishing Position": 999
+    },
+    "Wilco Nienaber": {
+      "Finishing Position": 999
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 999
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 999
+    },
+    "J.T. Poston": {
+      "Finishing Position": 999
+    },
+    "Ross Fisher": {
+      "Finishing Position": 999
+    },
+    "Adam Scott": {
+      "Finishing Position": 999
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 999
+    },
+    "Austen Truslow": {
+      "Finishing Position": 999
+    },
+    "Deon Germishuys": {
+      "Finishing Position": 999
+    },
+    "Roger Sloan": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Scott Stallings": {
+      "Finishing Position": 999
+    },
+    "Barclay Brown": {
+      "Finishing Position": 999
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 999
+    },
+    "Stewart Cink": {
+      "Finishing Position": 999
+    },
+    "Mac Meissner": {
+      "Finishing Position": 999
+    },
+    "Luke List": {
+      "Finishing Position": 999
+    },
+    "Michael Thorbjornsen": {
+      "Finishing Position": 999
+    },
+    "Preston Summerhays": {
+      "Finishing Position": 999
+    },
+    "Martin Kaymer": {
+      "Finishing Position": 999
+    },
+    "Bastien Amat": {
+      "Finishing Position": 999
+    },
+    "Brent Grant": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 999
+    },
+    "Jordan Gumberg": {
+      "Finishing Position": 999
+    },
+    "Taylor Montgomery": {
+      "Finishing Position": 999
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Olin Browne Jr.": {
+      "Finishing Position": 999
+    },
+    "Michael Kim": {
+      "Finishing Position": 999
+    },
+    "Ryan Armour": {
+      "Finishing Position": 999
+    },
+    "Jens Dantorp": {
+      "Finishing Position": 999
+    },
+    "David Nyfjall": {
+      "Finishing Position": 999
+    },
+    "Gunn Charoenkul": {
+      "Finishing Position": 999
+    },
+    "Jesse Schutte": {
+      "Finishing Position": 999
+    },
+    "Corey Pereira": {
+      "Finishing Position": 999
+    },
+    "Alejandro Del Rey": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Mateo Fern\u00e1ndez de Oliveira": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "Pablo Larraz\u00e1bal": {
+      "Finishing Position": 999
+    },
+    "Carlos Ortiz": {
+      "Finishing Position": 999
+    },
+    "Karl Vilips": {
+      "Finishing Position": 999
+    },
+    "Michael Brennan": {
+      "Finishing Position": 999
+    },
+    "Paul Haley II": {
+      "Finishing Position": 999
+    },
+    "Jason Day": {
+      "Finishing Position": 999
+    },
+    "Christian Cavaliere (a)": {
+      "Finishing Position": 999
+    },
+    "Wenyi Ding": {
+      "Finishing Position": 999
+    },
+    "Omar Morales": {
+      "Finishing Position": 999
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 999
+    },
+    "Aaron Wise": {
+      "Finishing Position": 999
+    },
+    "Berry Henson": {
+      "Finishing Position": 999
+    },
+    "Carson Young": {
+      "Finishing Position": 999
+    },
+    "Frankie Capan III": {
+      "Finishing Position": 999
+    },
+    "Alex Schaake": {
+      "Finishing Position": 999
+    },
+    "Hayden Buckley": {
+      "Finishing Position": 999
+    },
+    "Victor Perez": {
+      "Finishing Position": 999
+    },
+    "Matthew McClean (a)": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Joel Dahmen": {
+      "Finishing Position": 999
+    },
+    "Alexander Yang (a)": {
+      "Finishing Position": 999
+    },
+    "Isaac Simmons (a)": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Brendan Valdes": {
+      "Finishing Position": 999
+    },
+    "David Horsey": {
+      "Finishing Position": 999
+    },
+    "Hank Lebioda": {
+      "Finishing Position": 999
+    }
+  },
+  "OpenChampionship2023": {
+    "Brian Harman": {
+      "Finishing Position": 1
+    },
+    "Tom Kim": {
+      "Finishing Position": 2
+    },
+    "Jason Day": {
+      "Finishing Position": 2
+    },
+    "Sepp Straka": {
+      "Finishing Position": 2
+    },
+    "Jon Rahm": {
+      "Finishing Position": 2
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 6
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 6
+    },
+    "Shubhankar Sharma": {
+      "Finishing Position": 8
+    },
+    "Cameron Young": {
+      "Finishing Position": 8
+    },
+    "Max Homa": {
+      "Finishing Position": 10
+    },
+    "Matthew Jordan": {
+      "Finishing Position": 10
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 10
+    },
+    "Henrik Stenson": {
+      "Finishing Position": 13
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 13
+    },
+    "Thomas Detry": {
+      "Finishing Position": 13
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 13
+    },
+    "Laurie Canter": {
+      "Finishing Position": 17
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 17
+    },
+    "Alex Fitzpatrick": {
+      "Finishing Position": 17
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 20
+    },
+    "Sungjae Im": {
+      "Finishing Position": 20
+    },
+    "Antoine Rozner": {
+      "Finishing Position": 20
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 23
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 23
+    },
+    "Louis Oosthuizen": {
+      "Finishing Position": 23
+    },
+    "Matthew Southgate": {
+      "Finishing Position": 23
+    },
+    "Alex Noren": {
+      "Finishing Position": 23
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 23
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 23
+    },
+    "Stewart Cink": {
+      "Finishing Position": 23
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 23
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 23
+    },
+    "Adam Scott": {
+      "Finishing Position": 33
+    },
+    "Oliver Wilson": {
+      "Finishing Position": 33
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 33
+    },
+    "Patrick Reed": {
+      "Finishing Position": 33
+    },
+    "Cameron Smith": {
+      "Finishing Position": 33
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 33
+    },
+    "Richard Bland": {
+      "Finishing Position": 33
+    },
+    "Romain Langasque": {
+      "Finishing Position": 33
+    },
+    "Victor Perez": {
+      "Finishing Position": 41
+    },
+    "Marcel Siem": {
+      "Finishing Position": 41
+    },
+    "Hurly Long": {
+      "Finishing Position": 41
+    },
+    "Jordan Smith": {
+      "Finishing Position": 41
+    },
+    "J.T. Poston": {
+      "Finishing Position": 41
+    },
+    "Alexander Bj\u00f6rk": {
+      "Finishing Position": 41
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 41
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 41
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 49
+    },
+    "Abraham Ancer": {
+      "Finishing Position": 49
+    },
+    "Brendon Todd": {
+      "Finishing Position": 49
+    },
+    "Ryan Fox": {
+      "Finishing Position": 52
+    },
+    "Corey Conners": {
+      "Finishing Position": 52
+    },
+    "Michael Stewart": {
+      "Finishing Position": 52
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 55
+    },
+    "Gary Woodland": {
+      "Finishing Position": 55
+    },
+    "Adrian Otaegui": {
+      "Finishing Position": 55
+    },
+    "Zach Johnson": {
+      "Finishing Position": 55
+    },
+    "Brandon Robinson Thompson": {
+      "Finishing Position": 59
+    },
+    "Scott Stallings": {
+      "Finishing Position": 60
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 60
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 60
+    },
+    "Rikuya Hoshino": {
+      "Finishing Position": 60
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 64
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 64
+    },
+    "Richie Ramsay": {
+      "Finishing Position": 64
+    },
+    "Guido Migliozzi": {
+      "Finishing Position": 64
+    },
+    "Danny Willett": {
+      "Finishing Position": 68
+    },
+    "David Lingmerth": {
+      "Finishing Position": 68
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 68
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 71
+    },
+    "Thomas Pieters": {
+      "Finishing Position": 71
+    },
+    "Joost Luiten": {
+      "Finishing Position": 71
+    },
+    "Christo Lamprecht": {
+      "Finishing Position": 74
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 74
+    },
+    "Zack Fischer": {
+      "Finishing Position": 76
+    },
+    "Kyungnam Kang": {
+      "Finishing Position": 999
+    },
+    "Taylor Moore": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 999
+    },
+    "Kazuki Yasumori": {
+      "Finishing Position": 999
+    },
+    "Pablo Larraz\u00e1bal": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 999
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 999
+    },
+    "Yannik Paul": {
+      "Finishing Position": 999
+    },
+    "Harris English": {
+      "Finishing Position": 999
+    },
+    "Jose Luis Ballester": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Michael Kim": {
+      "Finishing Position": 999
+    },
+    "Matt Wallace": {
+      "Finishing Position": 999
+    },
+    "Trey Mullinax": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Bio Kim": {
+      "Finishing Position": 999
+    },
+    "Kazuki Higa": {
+      "Finishing Position": 999
+    },
+    "Billy Horschel": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Tony Finau": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Sam Burns": {
+      "Finishing Position": 999
+    },
+    "Keita Nakajima": {
+      "Finishing Position": 999
+    },
+    "Kalle Samooja": {
+      "Finishing Position": 999
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "Mateo Fern\u00e1ndez de Oliveira": {
+      "Finishing Position": 999
+    },
+    "Charl Schwartzel": {
+      "Finishing Position": 999
+    },
+    "Dan Bradbury": {
+      "Finishing Position": 999
+    },
+    "Ewen Ferguson": {
+      "Finishing Position": 999
+    },
+    "Connor Syme": {
+      "Finishing Position": 999
+    },
+    "Talor Gooch": {
+      "Finishing Position": 999
+    },
+    "Russell Henley": {
+      "Finishing Position": 999
+    },
+    "Ockie Strydom": {
+      "Finishing Position": 999
+    },
+    "Nacho Elvira": {
+      "Finishing Position": 999
+    },
+    "Shane Lowry": {
+      "Finishing Position": 999
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 999
+    },
+    "Travis Smyth": {
+      "Finishing Position": 999
+    },
+    "Seungsu Han": {
+      "Finishing Position": 999
+    },
+    "Marco Penge": {
+      "Finishing Position": 999
+    },
+    "Darren Clarke": {
+      "Finishing Position": 999
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 999
+    },
+    "Daniel Hillier": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Tiger Christensen": {
+      "Finishing Position": 999
+    },
+    "Haydn Barron": {
+      "Finishing Position": 999
+    },
+    "Callum Shinkwin": {
+      "Finishing Position": 999
+    },
+    "David Micheluzzi": {
+      "Finishing Position": 999
+    },
+    "Taiga Semikawa": {
+      "Finishing Position": 999
+    },
+    "Ernie Els": {
+      "Finishing Position": 999
+    },
+    "Branden Grace": {
+      "Finishing Position": 999
+    },
+    "Alex Maguire": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Marc Warren": {
+      "Finishing Position": 999
+    },
+    "Connor McKinney": {
+      "Finishing Position": 999
+    },
+    "Lee Hodges": {
+      "Finishing Position": 999
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "John Daly": {
+      "Finishing Position": 999
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 999
+    },
+    "Alejandro Ca\u00f1izares": {
+      "Finishing Position": 999
+    },
+    "Graeme Robertson": {
+      "Finishing Position": 999
+    },
+    "Oliver Farr": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Martin Rohwer": {
+      "Finishing Position": 999
+    },
+    "Jorge Campillo": {
+      "Finishing Position": 999
+    },
+    "Hiroshi Iwata": {
+      "Finishing Position": 999
+    },
+    "Kyle Barker": {
+      "Finishing Position": 999
+    },
+    "Harrison Crowe": {
+      "Finishing Position": 999
+    },
+    "Kensei Hirata": {
+      "Finishing Position": 999
+    },
+    "Gunner Wiebe": {
+      "Finishing Position": 999
+    },
+    "Taichi Kho": {
+      "Finishing Position": 999
+    },
+    "Adri Arnaus": {
+      "Finishing Position": 999
+    },
+    "Jazz Janewattananond": {
+      "Finishing Position": 999
+    }
+  },
+  "PlayersChampionship2024": {
+    "Scottie Scheffler": {
+      "Finishing Position": 1
+    },
+    "Brian Harman": {
+      "Finishing Position": 2
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 2
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 2
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 5
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 6
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 6
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 8
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 9
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 9
+    },
+    "Joel Dahmen": {
+      "Finishing Position": 11
+    },
+    "Taylor Montgomery": {
+      "Finishing Position": 11
+    },
+    "Corey Conners": {
+      "Finishing Position": 13
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 13
+    },
+    "Nate Lashley": {
+      "Finishing Position": 13
+    },
+    "Sam Ryder": {
+      "Finishing Position": 16
+    },
+    "Sepp Straka": {
+      "Finishing Position": 16
+    },
+    "Doug Ghim": {
+      "Finishing Position": 16
+    },
+    "Shane Lowry": {
+      "Finishing Position": 19
+    },
+    "Harris English": {
+      "Finishing Position": 19
+    },
+    "Dylan Wu": {
+      "Finishing Position": 19
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 19
+    },
+    "Alex Noren": {
+      "Finishing Position": 19
+    },
+    "Adam Schenk": {
+      "Finishing Position": 19
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 19
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 26
+    },
+    "Chris Kirk": {
+      "Finishing Position": 26
+    },
+    "Nick Taylor": {
+      "Finishing Position": 26
+    },
+    "Matt NeSmith": {
+      "Finishing Position": 26
+    },
+    "Matti Schmid": {
+      "Finishing Position": 26
+    },
+    "Ben Martin": {
+      "Finishing Position": 31
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 31
+    },
+    "Sungjae Im": {
+      "Finishing Position": 31
+    },
+    "Taylor Moore": {
+      "Finishing Position": 31
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 35
+    },
+    "Jimmy Stanger": {
+      "Finishing Position": 35
+    },
+    "Aaron Rai": {
+      "Finishing Position": 35
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 35
+    },
+    "Lee Hodges": {
+      "Finishing Position": 35
+    },
+    "Brice Garnett": {
+      "Finishing Position": 35
+    },
+    "Jason Day": {
+      "Finishing Position": 35
+    },
+    "Grayson Murray": {
+      "Finishing Position": 42
+    },
+    "David Lipsky": {
+      "Finishing Position": 42
+    },
+    "C.T. Pan": {
+      "Finishing Position": 42
+    },
+    "Adam Scott": {
+      "Finishing Position": 45
+    },
+    "Ryan Moore": {
+      "Finishing Position": 45
+    },
+    "Jake Knapp": {
+      "Finishing Position": 45
+    },
+    "Tony Finau": {
+      "Finishing Position": 45
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 45
+    },
+    "Sam Burns": {
+      "Finishing Position": 45
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 45
+    },
+    "J.T. Poston": {
+      "Finishing Position": 45
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 53
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 54
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 54
+    },
+    "Zac Blair": {
+      "Finishing Position": 54
+    },
+    "Martin Laird": {
+      "Finishing Position": 54
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 54
+    },
+    "Cameron Young": {
+      "Finishing Position": 54
+    },
+    "Tom Hoge": {
+      "Finishing Position": 54
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 54
+    },
+    "Thomas Detry": {
+      "Finishing Position": 62
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 62
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 64
+    },
+    "Max Homa": {
+      "Finishing Position": 64
+    },
+    "Tyler Duncan": {
+      "Finishing Position": 64
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 64
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 68
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 68
+    },
+    "Chan Kim": {
+      "Finishing Position": 68
+    },
+    "Peter Malnati": {
+      "Finishing Position": 68
+    },
+    "Gary Woodland": {
+      "Finishing Position": 72
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 73
+    },
+    "Lucas Glover": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "Webb Simpson": {
+      "Finishing Position": 999
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 999
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 999
+    },
+    "David Skinns": {
+      "Finishing Position": 999
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 999
+    },
+    "Luke List": {
+      "Finishing Position": 999
+    },
+    "Justin Suh": {
+      "Finishing Position": 999
+    },
+    "Brandon Wu": {
+      "Finishing Position": 999
+    },
+    "S.H. Kim": {
+      "Finishing Position": 999
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 999
+    },
+    "Hayden Buckley": {
+      "Finishing Position": 999
+    },
+    "Beau Hossler": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Billy Horschel": {
+      "Finishing Position": 999
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 999
+    },
+    "Tyson Alexander": {
+      "Finishing Position": 999
+    },
+    "Ryan Fox": {
+      "Finishing Position": 999
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Chesson Hadley": {
+      "Finishing Position": 999
+    },
+    "Greyson Sigg": {
+      "Finishing Position": 999
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 999
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Troy Merritt": {
+      "Finishing Position": 999
+    },
+    "Russell Henley": {
+      "Finishing Position": 999
+    },
+    "Eric Cole": {
+      "Finishing Position": 999
+    },
+    "Steve Stricker": {
+      "Finishing Position": 999
+    },
+    "Ben Silverman": {
+      "Finishing Position": 999
+    },
+    "Carson Young": {
+      "Finishing Position": 999
+    },
+    "Justin Lower": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Kevin Yu": {
+      "Finishing Position": 999
+    },
+    "Adam Svensson": {
+      "Finishing Position": 999
+    },
+    "Chez Reavie": {
+      "Finishing Position": 999
+    },
+    "Matt Wallace": {
+      "Finishing Position": 999
+    },
+    "Alex Smalley": {
+      "Finishing Position": 999
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Joseph Bramlett": {
+      "Finishing Position": 999
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Andrew Novak": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    },
+    "Michael Kim": {
+      "Finishing Position": 999
+    },
+    "Charley Hoffman": {
+      "Finishing Position": 999
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "Sam Stevens": {
+      "Finishing Position": 999
+    },
+    "Chad Ramey": {
+      "Finishing Position": 999
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 999
+    },
+    "Vincent Norrman": {
+      "Finishing Position": 999
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 999
+    },
+    "Aaron Baddeley": {
+      "Finishing Position": 999
+    },
+    "Carl Yuan": {
+      "Finishing Position": 999
+    },
+    "Scott Stallings": {
+      "Finishing Position": 999
+    },
+    "Brendon Todd": {
+      "Finishing Position": 999
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 999
+    },
+    "Ben Taylor": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Harry Hall": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "Nick Hardy": {
+      "Finishing Position": 999
+    },
+    "Robby Shelton": {
+      "Finishing Position": 999
+    },
+    "Kevin Streelman": {
+      "Finishing Position": 999
+    },
+    "Ben Kohles": {
+      "Finishing Position": 999
+    },
+    "Callum Tarren": {
+      "Finishing Position": 999
+    },
+    "Camilo Villegas": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Garrick Higgo": {
+      "Finishing Position": 999
+    },
+    "Tom Kim": {
+      "Finishing Position": 999
+    }
+  },
+  "Masters2024": {
+    "Scottie Scheffler": {
+      "Finishing Position": 1
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 2
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 3
+    },
+    "Max Homa": {
+      "Finishing Position": 3
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 3
+    },
+    "Cameron Smith": {
+      "Finishing Position": 6
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 6
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 8
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 9
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 9
+    },
+    "Cameron Young": {
+      "Finishing Position": 9
+    },
+    "Patrick Reed": {
+      "Finishing Position": 12
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 12
+    },
+    "Adam Schenk": {
+      "Finishing Position": 12
+    },
+    "Cam Davis": {
+      "Finishing Position": 12
+    },
+    "Sepp Straka": {
+      "Finishing Position": 16
+    },
+    "Chris Kirk": {
+      "Finishing Position": 16
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 16
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 16
+    },
+    "Taylor Moore": {
+      "Finishing Position": 20
+    },
+    "Lucas Glover": {
+      "Finishing Position": 20
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 22
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 22
+    },
+    "Harris English": {
+      "Finishing Position": 22
+    },
+    "Adam Scott": {
+      "Finishing Position": 22
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 22
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 22
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 22
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 22
+    },
+    "Tom Kim": {
+      "Finishing Position": 30
+    },
+    "Jason Day": {
+      "Finishing Position": 30
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 30
+    },
+    "J.T. Poston": {
+      "Finishing Position": 30
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 30
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 35
+    },
+    "Camilo Villegas": {
+      "Finishing Position": 35
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 35
+    },
+    "Russell Henley": {
+      "Finishing Position": 38
+    },
+    "Corey Conners": {
+      "Finishing Position": 38
+    },
+    "Luke List": {
+      "Finishing Position": 38
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 38
+    },
+    "Ryan Fox": {
+      "Finishing Position": 38
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 43
+    },
+    "Shane Lowry": {
+      "Finishing Position": 43
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 45
+    },
+    "Jos\u00e9 Mar\u00eda Olaz\u00e1bal": {
+      "Finishing Position": 45
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 45
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 45
+    },
+    "Jon Rahm": {
+      "Finishing Position": 45
+    },
+    "Danny Willett": {
+      "Finishing Position": 45
+    },
+    "Grayson Murray": {
+      "Finishing Position": 51
+    },
+    "Eric Cole": {
+      "Finishing Position": 52
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 53
+    },
+    "Neal Shipley": {
+      "Finishing Position": 53
+    },
+    "Jake Knapp": {
+      "Finishing Position": 55
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 55
+    },
+    "Tony Finau": {
+      "Finishing Position": 55
+    },
+    "Vijay Singh": {
+      "Finishing Position": 58
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 58
+    },
+    "Tiger Woods": {
+      "Finishing Position": 60
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Zach Johnson": {
+      "Finishing Position": 999
+    },
+    "Lee Hodges": {
+      "Finishing Position": 999
+    },
+    "Mike Weir": {
+      "Finishing Position": 999
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Stewart Hagestad (a)": {
+      "Finishing Position": 999
+    },
+    "Christo Lamprecht": {
+      "Finishing Position": 999
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 999
+    },
+    "Brian Harman": {
+      "Finishing Position": 999
+    },
+    "Sam Burns": {
+      "Finishing Position": 999
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 999
+    },
+    "Peter Malnati": {
+      "Finishing Position": 999
+    },
+    "Santiago de la Fuente": {
+      "Finishing Position": 999
+    },
+    "Bubba Watson": {
+      "Finishing Position": 999
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 999
+    },
+    "Charl Schwartzel": {
+      "Finishing Position": 999
+    },
+    "Fred Couples": {
+      "Finishing Position": 999
+    },
+    "Jasper Stubbs": {
+      "Finishing Position": 999
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 999
+    }
+  },
+  "PGAChampionship2024": {
+    "Xander Schauffele": {
+      "Finishing Position": 1
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 2
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 3
+    },
+    "Thomas Detry": {
+      "Finishing Position": 4
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 4
+    },
+    "Justin Rose": {
+      "Finishing Position": 6
+    },
+    "Shane Lowry": {
+      "Finishing Position": 6
+    },
+    "Billy Horschel": {
+      "Finishing Position": 8
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 8
+    },
+    "Justin Thomas": {
+      "Finishing Position": 8
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 8
+    },
+    "Alex Noren": {
+      "Finishing Position": 12
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 12
+    },
+    "Taylor Moore": {
+      "Finishing Position": 12
+    },
+    "Lee Hodges": {
+      "Finishing Position": 12
+    },
+    "Dean Burmester": {
+      "Finishing Position": 12
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 12
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 18
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 18
+    },
+    "Harris English": {
+      "Finishing Position": 18
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 18
+    },
+    "Tony Finau": {
+      "Finishing Position": 18
+    },
+    "Tom Hoge": {
+      "Finishing Position": 23
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 23
+    },
+    "Russell Henley": {
+      "Finishing Position": 23
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 26
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 26
+    },
+    "Corey Conners": {
+      "Finishing Position": 26
+    },
+    "Brian Harman": {
+      "Finishing Position": 26
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 26
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 26
+    },
+    "Ben Kohles": {
+      "Finishing Position": 26
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 26
+    },
+    "Tom Kim": {
+      "Finishing Position": 26
+    },
+    "Brice Garnett": {
+      "Finishing Position": 35
+    },
+    "Max Homa": {
+      "Finishing Position": 35
+    },
+    "Doug Ghim": {
+      "Finishing Position": 35
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 35
+    },
+    "Jordan Smith": {
+      "Finishing Position": 39
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 39
+    },
+    "Alexander Bj\u00f6rk": {
+      "Finishing Position": 39
+    },
+    "Aaron Rai": {
+      "Finishing Position": 39
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 43
+    },
+    "Grayson Murray": {
+      "Finishing Position": 43
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 43
+    },
+    "Adam Svensson": {
+      "Finishing Position": 43
+    },
+    "Lucas Glover": {
+      "Finishing Position": 43
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 43
+    },
+    "Jason Day": {
+      "Finishing Position": 43
+    },
+    "Matt Wallace": {
+      "Finishing Position": 43
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 43
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 43
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 53
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 53
+    },
+    "Jesper Svensson": {
+      "Finishing Position": 53
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 53
+    },
+    "Patrick Reed": {
+      "Finishing Position": 53
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 53
+    },
+    "Zac Blair": {
+      "Finishing Position": 53
+    },
+    "Talor Gooch": {
+      "Finishing Position": 60
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 60
+    },
+    "Gary Woodland": {
+      "Finishing Position": 60
+    },
+    "S.H. Kim": {
+      "Finishing Position": 63
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 63
+    },
+    "Cameron Young": {
+      "Finishing Position": 63
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 63
+    },
+    "Cameron Smith": {
+      "Finishing Position": 63
+    },
+    "Sebastian S\u00f6derberg": {
+      "Finishing Position": 68
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 68
+    },
+    "Luke Donald": {
+      "Finishing Position": 68
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 68
+    },
+    "Braden Shattuck": {
+      "Finishing Position": 72
+    },
+    "Alejandro Tosti": {
+      "Finishing Position": 73
+    },
+    "Martin Kaymer": {
+      "Finishing Position": 73
+    },
+    "Ryan Fox": {
+      "Finishing Position": 75
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 76
+    },
+    "Jeremy Wells": {
+      "Finishing Position": 77
+    },
+    "Brendon Todd": {
+      "Finishing Position": 78
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 999
+    },
+    "C.T. Pan": {
+      "Finishing Position": 999
+    },
+    "Ben Polland": {
+      "Finishing Position": 999
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 999
+    },
+    "Peter Malnati": {
+      "Finishing Position": 999
+    },
+    "Kyle Mendoza": {
+      "Finishing Position": 999
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 999
+    },
+    "Eric Cole": {
+      "Finishing Position": 999
+    },
+    "Jesse Mueller": {
+      "Finishing Position": 999
+    },
+    "Jon Rahm": {
+      "Finishing Position": 999
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 999
+    },
+    "Adrian Otaegui": {
+      "Finishing Position": 999
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 999
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 999
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 999
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Charley Hoffman": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Tim Widing": {
+      "Finishing Position": 999
+    },
+    "Jason Dufner": {
+      "Finishing Position": 999
+    },
+    "Jake Knapp": {
+      "Finishing Position": 999
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Andrew Svoboda": {
+      "Finishing Position": 999
+    },
+    "Beau Hossler": {
+      "Finishing Position": 999
+    },
+    "Vincent Norrman": {
+      "Finishing Position": 999
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 999
+    },
+    "Sepp Straka": {
+      "Finishing Position": 999
+    },
+    "Chris Gotterup": {
+      "Finishing Position": 999
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Tyler Collet": {
+      "Finishing Position": 999
+    },
+    "David Puig": {
+      "Finishing Position": 999
+    },
+    "Sam Burns": {
+      "Finishing Position": 999
+    },
+    "Evan Bowser": {
+      "Finishing Position": 999
+    },
+    "Adam Scott": {
+      "Finishing Position": 999
+    },
+    "Ryan van Velzen": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 999
+    },
+    "Keita Nakajima": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 999
+    },
+    "Luke List": {
+      "Finishing Position": 999
+    },
+    "Y.E. Yang": {
+      "Finishing Position": 999
+    },
+    "Alex Smalley": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "J.T. Poston": {
+      "Finishing Position": 999
+    },
+    "Wyatt Worthington II": {
+      "Finishing Position": 999
+    },
+    "John Somers": {
+      "Finishing Position": 999
+    },
+    "Andy Ogletree": {
+      "Finishing Position": 999
+    },
+    "Jimmy Walker": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Michael Block": {
+      "Finishing Position": 999
+    },
+    "Tiger Woods": {
+      "Finishing Position": 999
+    },
+    "Victor Perez": {
+      "Finishing Position": 999
+    },
+    "Kazuma Kobori": {
+      "Finishing Position": 999
+    },
+    "Jared Jones": {
+      "Finishing Position": 999
+    },
+    "Brad Marek": {
+      "Finishing Position": 999
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 999
+    },
+    "Zac Oakley": {
+      "Finishing Position": 999
+    },
+    "Shaun Micheel": {
+      "Finishing Position": 999
+    },
+    "Josh Speight": {
+      "Finishing Position": 999
+    },
+    "Camilo Villegas": {
+      "Finishing Position": 999
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 999
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 999
+    },
+    "Josh Bevell": {
+      "Finishing Position": 999
+    },
+    "Tracy Phillips": {
+      "Finishing Position": 999
+    },
+    "Larkin Gross": {
+      "Finishing Position": 999
+    },
+    "Matt Dobyns": {
+      "Finishing Position": 999
+    },
+    "Preston Cole": {
+      "Finishing Position": 999
+    },
+    "Jeff Kellen": {
+      "Finishing Position": 999
+    },
+    "Rich Beem": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "John Daly": {
+      "Finishing Position": 999
+    }
+  },
+  "USOpen2024": {
+    "Bryson DeChambeau": {
+      "Finishing Position": 1
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 2
+    },
+    "Tony Finau": {
+      "Finishing Position": 3
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 3
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 5
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 6
+    },
+    "Russell Henley": {
+      "Finishing Position": 7
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 7
+    },
+    "Sam Burns": {
+      "Finishing Position": 9
+    },
+    "Davis Thompson": {
+      "Finishing Position": 9
+    },
+    "Corey Conners": {
+      "Finishing Position": 9
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 12
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 12
+    },
+    "Thomas Detry": {
+      "Finishing Position": 14
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 14
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 16
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 16
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 16
+    },
+    "Shane Lowry": {
+      "Finishing Position": 19
+    },
+    "Aaron Rai": {
+      "Finishing Position": 19
+    },
+    "Max Greyserman": {
+      "Finishing Position": 21
+    },
+    "Daniel Berger": {
+      "Finishing Position": 21
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 21
+    },
+    "Brian Harman": {
+      "Finishing Position": 21
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 21
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 26
+    },
+    "Neal Shipley": {
+      "Finishing Position": 26
+    },
+    "Chris Kirk": {
+      "Finishing Position": 26
+    },
+    "Zac Blair": {
+      "Finishing Position": 26
+    },
+    "Tom Kim": {
+      "Finishing Position": 26
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 26
+    },
+    "Adam Scott": {
+      "Finishing Position": 32
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 32
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 32
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 32
+    },
+    "J.T. Poston": {
+      "Finishing Position": 32
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 32
+    },
+    "Cameron Smith": {
+      "Finishing Position": 32
+    },
+    "Isaiah Salinda": {
+      "Finishing Position": 32
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 32
+    },
+    "Harris English": {
+      "Finishing Position": 41
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 41
+    },
+    "Frankie Capan III": {
+      "Finishing Position": 41
+    },
+    "Tom McKibbin": {
+      "Finishing Position": 41
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 41
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 41
+    },
+    "Tim Widing": {
+      "Finishing Position": 41
+    },
+    "Luke Clanton": {
+      "Finishing Position": 41
+    },
+    "Billy Horschel": {
+      "Finishing Position": 41
+    },
+    "Justin Lower": {
+      "Finishing Position": 50
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 50
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 50
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 50
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 54
+    },
+    "David Puig": {
+      "Finishing Position": 55
+    },
+    "S.H. Kim": {
+      "Finishing Position": 56
+    },
+    "Ben Kohles": {
+      "Finishing Position": 56
+    },
+    "Ryan Fox": {
+      "Finishing Position": 56
+    },
+    "Greyson Sigg": {
+      "Finishing Position": 56
+    },
+    "Sepp Straka": {
+      "Finishing Position": 56
+    },
+    "Brian Campbell": {
+      "Finishing Position": 56
+    },
+    "Adam Svensson": {
+      "Finishing Position": 56
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 56
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 64
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 64
+    },
+    "Martin Kaymer": {
+      "Finishing Position": 64
+    },
+    "Cameron Young": {
+      "Finishing Position": 67
+    },
+    "Brendon Todd": {
+      "Finishing Position": 67
+    },
+    "Dean Burmester": {
+      "Finishing Position": 69
+    },
+    "Gunnar Broin (a)": {
+      "Finishing Position": 70
+    },
+    "Brandon Wu": {
+      "Finishing Position": 70
+    },
+    "Sam Bennett": {
+      "Finishing Position": 72
+    },
+    "Jackson Suber": {
+      "Finishing Position": 73
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 74
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 999
+    },
+    "Jackson Buchanan": {
+      "Finishing Position": 999
+    },
+    "Ben James (a)": {
+      "Finishing Position": 999
+    },
+    "Jason Scrivener": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Eric Cole": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Brandon Robinson Thompson": {
+      "Finishing Position": 999
+    },
+    "Frederik Kjettrup": {
+      "Finishing Position": 999
+    },
+    "Bryan Kim (a)": {
+      "Finishing Position": 999
+    },
+    "Max Homa": {
+      "Finishing Position": 999
+    },
+    "Taisei Shimizu": {
+      "Finishing Position": 999
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 999
+    },
+    "Rico Hoey": {
+      "Finishing Position": 999
+    },
+    "Parker Bell (a)": {
+      "Finishing Position": 999
+    },
+    "Peter Malnati": {
+      "Finishing Position": 999
+    },
+    "Tiger Woods": {
+      "Finishing Position": 999
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 999
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 999
+    },
+    "Omar Morales": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Richard Mansell": {
+      "Finishing Position": 999
+    },
+    "Taylor Moore": {
+      "Finishing Position": 999
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 999
+    },
+    "Ryo Ishikawa": {
+      "Finishing Position": 999
+    },
+    "Chesson Hadley": {
+      "Finishing Position": 999
+    },
+    "Eugenio Chacarra": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    },
+    "Webb Simpson": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Alex Noren": {
+      "Finishing Position": 999
+    },
+    "Jason Day": {
+      "Finishing Position": 999
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 999
+    },
+    "Chris Petefish": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Joey Vrzich": {
+      "Finishing Position": 999
+    },
+    "Victor Perez": {
+      "Finishing Position": 999
+    },
+    "Hiroshi Tai (a)": {
+      "Finishing Position": 999
+    },
+    "Sung Kang": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Edoardo Molinari": {
+      "Finishing Position": 999
+    },
+    "Mac Meissner": {
+      "Finishing Position": 999
+    },
+    "Logan McAllister": {
+      "Finishing Position": 999
+    },
+    "Robert Rock": {
+      "Finishing Position": 999
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 999
+    },
+    "Ashton McCulloch (a)": {
+      "Finishing Position": 999
+    },
+    "Beau Hossler": {
+      "Finishing Position": 999
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Sam Bairstow": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Michael McGowan": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Brendan Valdes": {
+      "Finishing Position": 999
+    },
+    "Harry Higgs": {
+      "Finishing Position": 999
+    },
+    "Wells Williams (a)": {
+      "Finishing Position": 999
+    },
+    "Andrew Svoboda": {
+      "Finishing Position": 999
+    },
+    "Gordon Sargent": {
+      "Finishing Position": 999
+    },
+    "Carter Jenkins": {
+      "Finishing Position": 999
+    },
+    "Casey Jarvis": {
+      "Finishing Position": 999
+    },
+    "Willie Mack III": {
+      "Finishing Position": 999
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 999
+    },
+    "Jake Knapp": {
+      "Finishing Position": 999
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 999
+    },
+    "Santiago de la Fuente": {
+      "Finishing Position": 999
+    },
+    "Grant Forrest": {
+      "Finishing Position": 999
+    },
+    "John Chin": {
+      "Finishing Position": 999
+    },
+    "Lucas Glover": {
+      "Finishing Position": 999
+    },
+    "Jim Herman": {
+      "Finishing Position": 999
+    },
+    "Maxwell Moldovan": {
+      "Finishing Position": 999
+    },
+    "Matteo Manassero": {
+      "Finishing Position": 999
+    },
+    "Stewart Hagestad (a)": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Chris Naegel": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Carson Schaake": {
+      "Finishing Position": 999
+    },
+    "Colin Prater (a)": {
+      "Finishing Position": 999
+    },
+    "Otto Black": {
+      "Finishing Position": 999
+    },
+    "Rikuya Hoshino": {
+      "Finishing Position": 999
+    },
+    "Riki Kawamoto": {
+      "Finishing Position": 999
+    },
+    "Charlie Reiter": {
+      "Finishing Position": 999
+    }
+  },
+  "OpenChampionship2024": {
+    "Xander Schauffele": {
+      "Finishing Position": 1
+    },
+    "Justin Rose": {
+      "Finishing Position": 2
+    },
+    "Billy Horschel": {
+      "Finishing Position": 2
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 4
+    },
+    "Russell Henley": {
+      "Finishing Position": 5
+    },
+    "Shane Lowry": {
+      "Finishing Position": 6
+    },
+    "Jon Rahm": {
+      "Finishing Position": 7
+    },
+    "Sungjae Im": {
+      "Finishing Position": 7
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 7
+    },
+    "Adam Scott": {
+      "Finishing Position": 10
+    },
+    "Matthew Jordan": {
+      "Finishing Position": 10
+    },
+    "Daniel Brown": {
+      "Finishing Position": 10
+    },
+    "Jason Day": {
+      "Finishing Position": 13
+    },
+    "Alex Noren": {
+      "Finishing Position": 13
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 13
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 16
+    },
+    "John Catlin": {
+      "Finishing Position": 16
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 16
+    },
+    "Dean Burmester": {
+      "Finishing Position": 19
+    },
+    "Shubhankar Sharma": {
+      "Finishing Position": 19
+    },
+    "Daniel Hillier": {
+      "Finishing Position": 19
+    },
+    "Ewen Ferguson": {
+      "Finishing Position": 22
+    },
+    "Sepp Straka": {
+      "Finishing Position": 22
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 22
+    },
+    "Ryan Fox": {
+      "Finishing Position": 25
+    },
+    "Corey Conners": {
+      "Finishing Position": 25
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 25
+    },
+    "Joe Dean": {
+      "Finishing Position": 25
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 25
+    },
+    "Laurie Canter": {
+      "Finishing Position": 25
+    },
+    "Guido Migliozzi": {
+      "Finishing Position": 31
+    },
+    "Cameron Young": {
+      "Finishing Position": 31
+    },
+    "Eric Cole": {
+      "Finishing Position": 31
+    },
+    "Brendon Todd": {
+      "Finishing Position": 31
+    },
+    "Matteo Manassero": {
+      "Finishing Position": 31
+    },
+    "Minkyu Kim": {
+      "Finishing Position": 31
+    },
+    "Chris Kirk": {
+      "Finishing Position": 31
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 31
+    },
+    "Justin Thomas": {
+      "Finishing Position": 31
+    },
+    "Sam Burns": {
+      "Finishing Position": 31
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 41
+    },
+    "Matt Wallace": {
+      "Finishing Position": 41
+    },
+    "Jorge Campillo": {
+      "Finishing Position": 43
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 43
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 43
+    },
+    "Max Homa": {
+      "Finishing Position": 43
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 43
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 43
+    },
+    "Calum Scott (a)": {
+      "Finishing Position": 43
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 50
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 50
+    },
+    "Richard Mansell": {
+      "Finishing Position": 50
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 50
+    },
+    "Harris English": {
+      "Finishing Position": 50
+    },
+    "Adrian Meronk": {
+      "Finishing Position": 50
+    },
+    "Gary Woodland": {
+      "Finishing Position": 50
+    },
+    "Sean Crocker": {
+      "Finishing Position": 50
+    },
+    "Abraham Ancer": {
+      "Finishing Position": 58
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 58
+    },
+    "Tommy Morrison (a)": {
+      "Finishing Position": 60
+    },
+    "Jeunghun Wang": {
+      "Finishing Position": 60
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 60
+    },
+    "Jacob Skov Olesen": {
+      "Finishing Position": 60
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 60
+    },
+    "Brian Harman": {
+      "Finishing Position": 60
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 66
+    },
+    "Tom McKibbin": {
+      "Finishing Position": 66
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 66
+    },
+    "Davis Thompson": {
+      "Finishing Position": 66
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 66
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 71
+    },
+    "Young-han Song": {
+      "Finishing Position": 72
+    },
+    "Marcel Siem": {
+      "Finishing Position": 72
+    },
+    "Tom Hoge": {
+      "Finishing Position": 72
+    },
+    "Darren Clarke": {
+      "Finishing Position": 75
+    },
+    "Aaron Rai": {
+      "Finishing Position": 75
+    },
+    "Alex Cejka": {
+      "Finishing Position": 75
+    },
+    "Luis Masaveu": {
+      "Finishing Position": 78
+    },
+    "Andy Ogletree": {
+      "Finishing Position": 79
+    },
+    "Darren Fichardt": {
+      "Finishing Position": 80
+    },
+    "Vincent Norrman": {
+      "Finishing Position": 999
+    },
+    "Yuto Katsuragawa": {
+      "Finishing Position": 999
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 999
+    },
+    "Jack McDonald": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    },
+    "Nacho Elvira": {
+      "Finishing Position": 999
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 999
+    },
+    "Victor Perez": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 999
+    },
+    "Kazuma Kobori": {
+      "Finishing Position": 999
+    },
+    "Louis Oosthuizen": {
+      "Finishing Position": 999
+    },
+    "J.T. Poston": {
+      "Finishing Position": 999
+    },
+    "Henrik Stenson": {
+      "Finishing Position": 999
+    },
+    "Charlie Lindh": {
+      "Finishing Position": 999
+    },
+    "Sam Horsfield": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 999
+    },
+    "Masahiro Kawamura": {
+      "Finishing Position": 999
+    },
+    "C.T. Pan": {
+      "Finishing Position": 999
+    },
+    "Jordan Smith": {
+      "Finishing Position": 999
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 999
+    },
+    "Zach Johnson": {
+      "Finishing Position": 999
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 999
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 999
+    },
+    "Elvis Smylie": {
+      "Finishing Position": 999
+    },
+    "Joost Luiten": {
+      "Finishing Position": 999
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 999
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 999
+    },
+    "Matthew Southgate": {
+      "Finishing Position": 999
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 999
+    },
+    "Jasper Stubbs": {
+      "Finishing Position": 999
+    },
+    "Rikuya Hoshino": {
+      "Finishing Position": 999
+    },
+    "Taylor Moore": {
+      "Finishing Position": 999
+    },
+    "Yannik Paul": {
+      "Finishing Position": 999
+    },
+    "Ryosuke Kinoshita": {
+      "Finishing Position": 999
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 999
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 999
+    },
+    "Michael Hendry": {
+      "Finishing Position": 999
+    },
+    "Matthew Dodd-Berry (a)": {
+      "Finishing Position": 999
+    },
+    "Tony Finau": {
+      "Finishing Position": 999
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 999
+    },
+    "Altin Van Der Merwe": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 999
+    },
+    "Angel Hidalgo": {
+      "Finishing Position": 999
+    },
+    "Stewart Cink": {
+      "Finishing Position": 999
+    },
+    "Tom Kim": {
+      "Finishing Position": 999
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 999
+    },
+    "Jesper Svensson": {
+      "Finishing Position": 999
+    },
+    "Cameron Smith": {
+      "Finishing Position": 999
+    },
+    "Sam Hutsby": {
+      "Finishing Position": 999
+    },
+    "Alexander Bj\u00f6rk": {
+      "Finishing Position": 999
+    },
+    "Gordon Sargent": {
+      "Finishing Position": 999
+    },
+    "David Puig": {
+      "Finishing Position": 999
+    },
+    "Ryan van Velzen": {
+      "Finishing Position": 999
+    },
+    "Liam Nolan (a)": {
+      "Finishing Position": 999
+    },
+    "Dominic Clemons (a)": {
+      "Finishing Position": 999
+    },
+    "Lucas Glover": {
+      "Finishing Position": 999
+    },
+    "Jaime Montojo (a)": {
+      "Finishing Position": 999
+    },
+    "Tiger Woods": {
+      "Finishing Position": 999
+    },
+    "Santiago de la Fuente": {
+      "Finishing Position": 999
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 999
+    },
+    "Mason Andersen": {
+      "Finishing Position": 999
+    },
+    "Justin Leonard": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    },
+    "Denwit Boriboonsub": {
+      "Finishing Position": 999
+    },
+    "Keita Nakajima": {
+      "Finishing Position": 999
+    },
+    "Dan Bradbury": {
+      "Finishing Position": 999
+    },
+    "Guntaek Koh": {
+      "Finishing Position": 999
+    },
+    "Todd Hamilton": {
+      "Finishing Position": 999
+    },
+    "Aguri Iwasaki": {
+      "Finishing Position": 999
+    },
+    "John Daly": {
+      "Finishing Position": 999
+    },
+    "Ernie Els": {
+      "Finishing Position": 999
+    },
+    "Romain Langasque": {
+      "Finishing Position": 999
+    }
+  },
+  "PlayersChampionship2025": {
+    "Rory McIlroy": {
+      "Finishing Position": 1
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 2
+    },
+    "Tom Hoge": {
+      "Finishing Position": 3
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 3
+    },
+    "Lucas Glover": {
+      "Finishing Position": 3
+    },
+    "Danny Walker": {
+      "Finishing Position": 6
+    },
+    "Corey Conners": {
+      "Finishing Position": 6
+    },
+    "Bud Cauley": {
+      "Finishing Position": 6
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 9
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 10
+    },
+    "Davis Thompson": {
+      "Finishing Position": 10
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 12
+    },
+    "Jake Knapp": {
+      "Finishing Position": 12
+    },
+    "Aaron Rai": {
+      "Finishing Position": 14
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 14
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 14
+    },
+    "Sam Ryder": {
+      "Finishing Position": 14
+    },
+    "Sepp Straka": {
+      "Finishing Position": 14
+    },
+    "Alex Smalley": {
+      "Finishing Position": 14
+    },
+    "Shane Lowry": {
+      "Finishing Position": 20
+    },
+    "Ryan Fox": {
+      "Finishing Position": 20
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 20
+    },
+    "Joe Highsmith": {
+      "Finishing Position": 20
+    },
+    "Matt McCarty": {
+      "Finishing Position": 20
+    },
+    "Daniel Berger": {
+      "Finishing Position": 20
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 20
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 20
+    },
+    "Max McGreevy": {
+      "Finishing Position": 20
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 20
+    },
+    "Russell Henley": {
+      "Finishing Position": 30
+    },
+    "Harris English": {
+      "Finishing Position": 30
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 30
+    },
+    "Rico Hoey": {
+      "Finishing Position": 33
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 33
+    },
+    "Justin Thomas": {
+      "Finishing Position": 33
+    },
+    "Taylor Moore": {
+      "Finishing Position": 33
+    },
+    "J.T. Poston": {
+      "Finishing Position": 33
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 38
+    },
+    "Justin Lower": {
+      "Finishing Position": 38
+    },
+    "Davis Riley": {
+      "Finishing Position": 38
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 38
+    },
+    "Hayden Springer": {
+      "Finishing Position": 42
+    },
+    "Matt Kuchar": {
+      "Finishing Position": 42
+    },
+    "Billy Horschel": {
+      "Finishing Position": 42
+    },
+    "Jesper Svensson": {
+      "Finishing Position": 42
+    },
+    "Mac Meissner": {
+      "Finishing Position": 42
+    },
+    "Tom Kim": {
+      "Finishing Position": 42
+    },
+    "Chris Kirk": {
+      "Finishing Position": 42
+    },
+    "Ryan Gerard": {
+      "Finishing Position": 42
+    },
+    "Beau Hossler": {
+      "Finishing Position": 50
+    },
+    "Jacob Bridgeman": {
+      "Finishing Position": 50
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 52
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 52
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 54
+    },
+    "Carson Young": {
+      "Finishing Position": 54
+    },
+    "Charley Hoffman": {
+      "Finishing Position": 54
+    },
+    "Camilo Villegas": {
+      "Finishing Position": 54
+    },
+    "Joel Dahmen": {
+      "Finishing Position": 54
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 59
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 60
+    },
+    "Trey Mullinax": {
+      "Finishing Position": 61
+    },
+    "Cameron Young": {
+      "Finishing Position": 61
+    },
+    "Sungjae Im": {
+      "Finishing Position": 61
+    },
+    "Will Chandler": {
+      "Finishing Position": 61
+    },
+    "Chandler Phillips": {
+      "Finishing Position": 61
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 61
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 67
+    },
+    "Isaiah Salinda": {
+      "Finishing Position": 68
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 69
+    },
+    "C.T. Pan": {
+      "Finishing Position": 69
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 71
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 72
+    },
+    "David Lipsky": {
+      "Finishing Position": 999
+    },
+    "Michael Kim": {
+      "Finishing Position": 999
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 999
+    },
+    "Henrik Norlander": {
+      "Finishing Position": 999
+    },
+    "Peter Malnati": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Ricky Castillo": {
+      "Finishing Position": 999
+    },
+    "Ben Kohles": {
+      "Finishing Position": 999
+    },
+    "Laurie Canter": {
+      "Finishing Position": 999
+    },
+    "Patrick Fishburn": {
+      "Finishing Position": 999
+    },
+    "Harry Hall": {
+      "Finishing Position": 999
+    },
+    "Brian Campbell": {
+      "Finishing Position": 999
+    },
+    "Nate Lashley": {
+      "Finishing Position": 999
+    },
+    "Aldrich Potgieter": {
+      "Finishing Position": 999
+    },
+    "Sam Burns": {
+      "Finishing Position": 999
+    },
+    "Vince Whaley": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 999
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "David Skinns": {
+      "Finishing Position": 999
+    },
+    "Alejandro Tosti": {
+      "Finishing Position": 999
+    },
+    "Matti Schmid": {
+      "Finishing Position": 999
+    },
+    "Adam Scott": {
+      "Finishing Position": 999
+    },
+    "Sam Stevens": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Chris Gotterup": {
+      "Finishing Position": 999
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "Patton Kizzire": {
+      "Finishing Position": 999
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 999
+    },
+    "Chan Kim": {
+      "Finishing Position": 999
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 999
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 999
+    },
+    "Thomas Detry": {
+      "Finishing Position": 999
+    },
+    "Kevin Roy": {
+      "Finishing Position": 999
+    },
+    "Jackson Suber": {
+      "Finishing Position": 999
+    },
+    "Chad Ramey": {
+      "Finishing Position": 999
+    },
+    "Andrew Novak": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Greyson Sigg": {
+      "Finishing Position": 999
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 999
+    },
+    "Eric Cole": {
+      "Finishing Position": 999
+    },
+    "K.H. Lee": {
+      "Finishing Position": 999
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 999
+    },
+    "Andrew Putnam": {
+      "Finishing Position": 999
+    },
+    "Kevin Yu": {
+      "Finishing Position": 999
+    },
+    "Doug Ghim": {
+      "Finishing Position": 999
+    },
+    "Brice Garnett": {
+      "Finishing Position": 999
+    },
+    "Luke List": {
+      "Finishing Position": 999
+    },
+    "Max Homa": {
+      "Finishing Position": 999
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 999
+    },
+    "Kris Ventura": {
+      "Finishing Position": 999
+    },
+    "Lanto Griffin": {
+      "Finishing Position": 999
+    },
+    "Brian Harman": {
+      "Finishing Position": 999
+    },
+    "Karl Vilips": {
+      "Finishing Position": 999
+    },
+    "Will Gordon": {
+      "Finishing Position": 999
+    },
+    "Adam Svensson": {
+      "Finishing Position": 999
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 999
+    },
+    "Ben Silverman": {
+      "Finishing Position": 999
+    },
+    "Tony Finau": {
+      "Finishing Position": 999
+    },
+    "Max Greyserman": {
+      "Finishing Position": 999
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "Frankie Capan III": {
+      "Finishing Position": 999
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Rafael Campos": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    }
+  },
+  "Masters2025": {
+    "Rory McIlroy": {
+      "Finishing Position": 1
+    },
+    "Justin Rose": {
+      "Finishing Position": 2
+    },
+    "Patrick Reed": {
+      "Finishing Position": 3
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 4
+    },
+    "Sungjae Im": {
+      "Finishing Position": 5
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 5
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 7
+    },
+    "Zach Johnson": {
+      "Finishing Position": 8
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 8
+    },
+    "Jason Day": {
+      "Finishing Position": 8
+    },
+    "Corey Conners": {
+      "Finishing Position": 8
+    },
+    "Harris English": {
+      "Finishing Position": 12
+    },
+    "Max Homa": {
+      "Finishing Position": 12
+    },
+    "Bubba Watson": {
+      "Finishing Position": 14
+    },
+    "Jon Rahm": {
+      "Finishing Position": 14
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 14
+    },
+    "Tom Hoge": {
+      "Finishing Position": 14
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 14
+    },
+    "Matt McCarty": {
+      "Finishing Position": 14
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 14
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 21
+    },
+    "Daniel Berger": {
+      "Finishing Position": 21
+    },
+    "Davis Riley": {
+      "Finishing Position": 21
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 21
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 21
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 21
+    },
+    "Aaron Rai": {
+      "Finishing Position": 27
+    },
+    "Michael Kim": {
+      "Finishing Position": 27
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 29
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 29
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 29
+    },
+    "Brian Campbell": {
+      "Finishing Position": 32
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 32
+    },
+    "Max Greyserman": {
+      "Finishing Position": 32
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 32
+    },
+    "Justin Thomas": {
+      "Finishing Position": 36
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 36
+    },
+    "Brian Harman": {
+      "Finishing Position": 36
+    },
+    "Charl Schwartzel": {
+      "Finishing Position": 36
+    },
+    "Nick Taylor": {
+      "Finishing Position": 40
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 40
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 42
+    },
+    "Danny Willett": {
+      "Finishing Position": 42
+    },
+    "J.T. Poston": {
+      "Finishing Position": 42
+    },
+    "Shane Lowry": {
+      "Finishing Position": 42
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 46
+    },
+    "Sam Burns": {
+      "Finishing Position": 46
+    },
+    "Davis Thompson": {
+      "Finishing Position": 46
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 49
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 50
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 51
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 52
+    },
+    "Tom Kim": {
+      "Finishing Position": 52
+    },
+    "Russell Henley": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Bernhard Langer": {
+      "Finishing Position": 999
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 999
+    },
+    "Justin Hastings": {
+      "Finishing Position": 999
+    },
+    "Joe Highsmith": {
+      "Finishing Position": 999
+    },
+    "Rafael Campos": {
+      "Finishing Position": 999
+    },
+    "Mike Weir": {
+      "Finishing Position": 999
+    },
+    "Tony Finau": {
+      "Finishing Position": 999
+    },
+    "Adam Schenk": {
+      "Finishing Position": 999
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 999
+    },
+    "Fred Couples": {
+      "Finishing Position": 999
+    },
+    "Sepp Straka": {
+      "Finishing Position": 999
+    },
+    "Adam Scott": {
+      "Finishing Position": 999
+    },
+    "Billy Horschel": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 999
+    },
+    "Cameron Smith": {
+      "Finishing Position": 999
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 999
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 999
+    },
+    "Kevin Yu": {
+      "Finishing Position": 999
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 999
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 999
+    },
+    "Hiroshi Tai (a)": {
+      "Finishing Position": 999
+    },
+    "Jos\u00e9 Mar\u00eda Olaz\u00e1bal": {
+      "Finishing Position": 999
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 999
+    },
+    "Cameron Young": {
+      "Finishing Position": 999
+    },
+    "Patton Kizzire": {
+      "Finishing Position": 999
+    },
+    "Lucas Glover": {
+      "Finishing Position": 999
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    },
+    "Thomas Detry": {
+      "Finishing Position": 999
+    },
+    "Evan Beck (a)": {
+      "Finishing Position": 999
+    },
+    "Cam Davis": {
+      "Finishing Position": 999
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 999
+    },
+    "Laurie Canter": {
+      "Finishing Position": 999
+    },
+    "Jose Luis Ballester": {
+      "Finishing Position": 999
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 999
+    },
+    "Noah Kent (a)": {
+      "Finishing Position": 999
+    },
+    "\u00c1ngel Cabrera": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    }
+  },
+  "PGAChampionship2025": {
+    "Scottie Scheffler": {
+      "Finishing Position": 1
+    },
+    "Harris English": {
+      "Finishing Position": 2
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 2
+    },
+    "Davis Riley": {
+      "Finishing Position": 2
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 5
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 5
+    },
+    "J.T. Poston": {
+      "Finishing Position": 5
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 8
+    },
+    "Ben Griffin": {
+      "Finishing Position": 8
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 8
+    },
+    "Ryan Gerard": {
+      "Finishing Position": 8
+    },
+    "Joe Highsmith": {
+      "Finishing Position": 8
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 8
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 8
+    },
+    "Jon Rahm": {
+      "Finishing Position": 8
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 8
+    },
+    "Matt Wallace": {
+      "Finishing Position": 17
+    },
+    "Alex Noren": {
+      "Finishing Position": 17
+    },
+    "Sam Burns": {
+      "Finishing Position": 19
+    },
+    "Corey Conners": {
+      "Finishing Position": 19
+    },
+    "Beau Hossler": {
+      "Finishing Position": 19
+    },
+    "Aaron Rai": {
+      "Finishing Position": 19
+    },
+    "Taylor Moore": {
+      "Finishing Position": 19
+    },
+    "Harry Hall": {
+      "Finishing Position": 19
+    },
+    "Cam Davis": {
+      "Finishing Position": 19
+    },
+    "Adam Scott": {
+      "Finishing Position": 19
+    },
+    "Tony Finau": {
+      "Finishing Position": 19
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 28
+    },
+    "Marco Penge": {
+      "Finishing Position": 28
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 28
+    },
+    "Alex Smalley": {
+      "Finishing Position": 28
+    },
+    "Ryan Fox": {
+      "Finishing Position": 28
+    },
+    "Daniel Berger": {
+      "Finishing Position": 33
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 33
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 33
+    },
+    "Max Greyserman": {
+      "Finishing Position": 33
+    },
+    "Richard Bland": {
+      "Finishing Position": 37
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 37
+    },
+    "Ryo Hisatsune": {
+      "Finishing Position": 37
+    },
+    "Lucas Glover": {
+      "Finishing Position": 37
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 41
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 41
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 41
+    },
+    "Eric Cole": {
+      "Finishing Position": 41
+    },
+    "Michael Thorbjornsen": {
+      "Finishing Position": 41
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 41
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 47
+    },
+    "Cameron Young": {
+      "Finishing Position": 47
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 47
+    },
+    "Kevin Yu": {
+      "Finishing Position": 50
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 50
+    },
+    "Tom McKibbin": {
+      "Finishing Position": 50
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 50
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 50
+    },
+    "Chris Kirk": {
+      "Finishing Position": 55
+    },
+    "Brian Campbell": {
+      "Finishing Position": 55
+    },
+    "Michael Kim": {
+      "Finishing Position": 55
+    },
+    "Rafael Campos": {
+      "Finishing Position": 55
+    },
+    "Garrick Higgo": {
+      "Finishing Position": 55
+    },
+    "Brian Harman": {
+      "Finishing Position": 60
+    },
+    "Justin Lower": {
+      "Finishing Position": 60
+    },
+    "Sam Stevens": {
+      "Finishing Position": 60
+    },
+    "Luke Donald": {
+      "Finishing Position": 60
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 60
+    },
+    "Max Homa": {
+      "Finishing Position": 60
+    },
+    "David Puig": {
+      "Finishing Position": 60
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 67
+    },
+    "Austin Eckroat": {
+      "Finishing Position": 67
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 67
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 70
+    },
+    "Tom Kim": {
+      "Finishing Position": 71
+    },
+    "Bud Cauley": {
+      "Finishing Position": 72
+    },
+    "Elvis Smylie": {
+      "Finishing Position": 72
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 74
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Rasmus Neergaard-Petersen": {
+      "Finishing Position": 999
+    },
+    "Jake Knapp": {
+      "Finishing Position": 999
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 999
+    },
+    "Kurt Kitayama": {
+      "Finishing Position": 999
+    },
+    "Sepp Straka": {
+      "Finishing Position": 999
+    },
+    "Shane Lowry": {
+      "Finishing Position": 999
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 999
+    },
+    "Niklas Norgaard": {
+      "Finishing Position": 999
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 999
+    },
+    "John Catlin": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 999
+    },
+    "Victor Perez": {
+      "Finishing Position": 999
+    },
+    "Keith Mitchell": {
+      "Finishing Position": 999
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 999
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 999
+    },
+    "Patrick Fishburn": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Thomas Detry": {
+      "Finishing Position": 999
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 999
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 999
+    },
+    "Eugenio Chacarra": {
+      "Finishing Position": 999
+    },
+    "Patrick Reed": {
+      "Finishing Position": 999
+    },
+    "Matt McCarty": {
+      "Finishing Position": 999
+    },
+    "Jimmy Walker": {
+      "Finishing Position": 999
+    },
+    "S\u00e9amus Power": {
+      "Finishing Position": 999
+    },
+    "Keita Nakajima": {
+      "Finishing Position": 999
+    },
+    "Sungjae Im": {
+      "Finishing Position": 999
+    },
+    "Max McGreevy": {
+      "Finishing Position": 999
+    },
+    "Daniel van Tonder": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Jacob Bridgeman": {
+      "Finishing Position": 999
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Lee Hodges": {
+      "Finishing Position": 999
+    },
+    "Dean Burmester": {
+      "Finishing Position": 999
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 999
+    },
+    "Jason Day": {
+      "Finishing Position": 999
+    },
+    "Will Zalatoris": {
+      "Finishing Position": 999
+    },
+    "Cameron Smith": {
+      "Finishing Position": 999
+    },
+    "Johnny Keefer": {
+      "Finishing Position": 999
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 999
+    },
+    "Martin Kaymer": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "John Parry": {
+      "Finishing Position": 999
+    },
+    "Laurie Canter": {
+      "Finishing Position": 999
+    },
+    "Shaun Micheel": {
+      "Finishing Position": 999
+    },
+    "Andrew Novak": {
+      "Finishing Position": 999
+    },
+    "Patrick Rodgers": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "John Somers": {
+      "Finishing Position": 999
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 999
+    },
+    "Sami V\u00e4lim\u00e4ki": {
+      "Finishing Position": 999
+    },
+    "Tyler Collet": {
+      "Finishing Position": 999
+    },
+    "Bob Sowards": {
+      "Finishing Position": 999
+    },
+    "Russell Henley": {
+      "Finishing Position": 999
+    },
+    "Michael Kartrude": {
+      "Finishing Position": 999
+    },
+    "Eric Steger": {
+      "Finishing Position": 999
+    },
+    "Tom Johnson": {
+      "Finishing Position": 999
+    },
+    "Jesse Droemer": {
+      "Finishing Position": 999
+    },
+    "Karl Vilips": {
+      "Finishing Position": 999
+    },
+    "Ryan Lenahan": {
+      "Finishing Position": 999
+    },
+    "Rico Hoey": {
+      "Finishing Position": 999
+    },
+    "Dylan Newman": {
+      "Finishing Position": 999
+    },
+    "Adam Hadwin": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Brandon Bingaman": {
+      "Finishing Position": 999
+    },
+    "Bobby Gates": {
+      "Finishing Position": 999
+    },
+    "Jason Dufner": {
+      "Finishing Position": 999
+    },
+    "Timothy Wiseman": {
+      "Finishing Position": 999
+    },
+    "Justin Hicks": {
+      "Finishing Position": 999
+    },
+    "Brian Bergstol": {
+      "Finishing Position": 999
+    },
+    "Michael Block": {
+      "Finishing Position": 999
+    },
+    "Nic Ishee": {
+      "Finishing Position": 999
+    },
+    "Andre Chi": {
+      "Finishing Position": 999
+    },
+    "Larkin Gross": {
+      "Finishing Position": 999
+    },
+    "Rupe Taylor": {
+      "Finishing Position": 999
+    },
+    "Greg Koch": {
+      "Finishing Position": 999
+    },
+    "Patton Kizzire": {
+      "Finishing Position": 999
+    }
+  },
+  "USOpen2025": {
+    "J.J. Spaun": {
+      "Finishing Position": 1
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 2
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 3
+    },
+    "Cameron Young": {
+      "Finishing Position": 4
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 4
+    },
+    "Carlos Ortiz": {
+      "Finishing Position": 4
+    },
+    "Jon Rahm": {
+      "Finishing Position": 7
+    },
+    "Scottie Scheffler": {
+      "Finishing Position": 7
+    },
+    "Sam Burns": {
+      "Finishing Position": 7
+    },
+    "Russell Henley": {
+      "Finishing Position": 10
+    },
+    "Ben Griffin": {
+      "Finishing Position": 10
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 12
+    },
+    "Chris Kirk": {
+      "Finishing Position": 12
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 12
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 12
+    },
+    "Rasmus Neergaard-Petersen": {
+      "Finishing Position": 12
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 12
+    },
+    "Adam Scott": {
+      "Finishing Position": 12
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 19
+    },
+    "Ryan Fox": {
+      "Finishing Position": 19
+    },
+    "Emiliano Grillo": {
+      "Finishing Position": 19
+    },
+    "Victor Perez": {
+      "Finishing Position": 19
+    },
+    "Patrick Reed": {
+      "Finishing Position": 23
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 23
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 23
+    },
+    "Matt Wallace": {
+      "Finishing Position": 23
+    },
+    "Jason Day": {
+      "Finishing Position": 23
+    },
+    "Sam Stevens": {
+      "Finishing Position": 23
+    },
+    "Thomas Detry": {
+      "Finishing Position": 23
+    },
+    "Chris Gotterup": {
+      "Finishing Position": 23
+    },
+    "Nick Taylor": {
+      "Finishing Position": 23
+    },
+    "Max Greyserman": {
+      "Finishing Position": 23
+    },
+    "Tom Kim": {
+      "Finishing Position": 33
+    },
+    "J.T. Poston": {
+      "Finishing Position": 33
+    },
+    "Aaron Rai": {
+      "Finishing Position": 33
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 33
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 37
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 38
+    },
+    "Tony Finau": {
+      "Finishing Position": 38
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 38
+    },
+    "Marc Leishman": {
+      "Finishing Position": 38
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 42
+    },
+    "Andrew Novak": {
+      "Finishing Position": 42
+    },
+    "Trevor Cone": {
+      "Finishing Position": 42
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 42
+    },
+    "Niklas Norgaard": {
+      "Finishing Position": 46
+    },
+    "Daniel Berger": {
+      "Finishing Position": 46
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 46
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 46
+    },
+    "Ryan McCormick": {
+      "Finishing Position": 50
+    },
+    "Michael Kim": {
+      "Finishing Position": 50
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 50
+    },
+    "Adam Schenk": {
+      "Finishing Position": 50
+    },
+    "Ryan Gerard": {
+      "Finishing Position": 50
+    },
+    "Justin Hastings": {
+      "Finishing Position": 55
+    },
+    "Laurie Canter": {
+      "Finishing Position": 55
+    },
+    "Sungjae Im": {
+      "Finishing Position": 57
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 57
+    },
+    "Harris English": {
+      "Finishing Position": 59
+    },
+    "Brian Harman": {
+      "Finishing Position": 59
+    },
+    "Jordan Smith": {
+      "Finishing Position": 61
+    },
+    "James Nicholas": {
+      "Finishing Position": 61
+    },
+    "Johnny Keefer": {
+      "Finishing Position": 61
+    },
+    "Cam Davis": {
+      "Finishing Position": 64
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 64
+    },
+    "Philip Barbaree, Jr.": {
+      "Finishing Position": 66
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 999
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Ben James (a)": {
+      "Finishing Position": 999
+    },
+    "Cameron Smith": {
+      "Finishing Position": 999
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 999
+    },
+    "Lucas Glover": {
+      "Finishing Position": 999
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 999
+    },
+    "Edoardo Molinari": {
+      "Finishing Position": 999
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 999
+    },
+    "Jackson Koivun (a)": {
+      "Finishing Position": 999
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 999
+    },
+    "Mark Hubbard": {
+      "Finishing Position": 999
+    },
+    "Erik van Rooyen": {
+      "Finishing Position": 999
+    },
+    "Tyler Weaver (a)": {
+      "Finishing Position": 999
+    },
+    "Scott Vincent": {
+      "Finishing Position": 999
+    },
+    "Jinichiro Kozuma": {
+      "Finishing Position": 999
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 999
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 999
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 999
+    },
+    "Lanto Griffin": {
+      "Finishing Position": 999
+    },
+    "Bud Cauley": {
+      "Finishing Position": 999
+    },
+    "Frankie Harris (a)": {
+      "Finishing Position": 999
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 999
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 999
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 999
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 999
+    },
+    "Trent Phillips": {
+      "Finishing Position": 999
+    },
+    "Michael La Sasso (a)": {
+      "Finishing Position": 999
+    },
+    "Jackson Buchanan": {
+      "Finishing Position": 999
+    },
+    "Jacques Kruyswijk": {
+      "Finishing Position": 999
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 999
+    },
+    "Gary Woodland": {
+      "Finishing Position": 999
+    },
+    "Jacob Bridgeman": {
+      "Finishing Position": 999
+    },
+    "Kevin Velo": {
+      "Finishing Position": 999
+    },
+    "Evan Beck (a)": {
+      "Finishing Position": 999
+    },
+    "Sepp Straka": {
+      "Finishing Position": 999
+    },
+    "Nick Dunlap": {
+      "Finishing Position": 999
+    },
+    "Riley Lewis": {
+      "Finishing Position": 999
+    },
+    "Zac Blair": {
+      "Finishing Position": 999
+    },
+    "Riki Kawamoto": {
+      "Finishing Position": 999
+    },
+    "Justin Thomas": {
+      "Finishing Position": 999
+    },
+    "Eric Cole": {
+      "Finishing Position": 999
+    },
+    "Maxwell Moldovan": {
+      "Finishing Position": 999
+    },
+    "Jose Luis Ballester": {
+      "Finishing Position": 999
+    },
+    "Emilio Gonz\u00e1lez": {
+      "Finishing Position": 999
+    },
+    "Chandler Blanchet": {
+      "Finishing Position": 999
+    },
+    "Lance Simpson (a)": {
+      "Finishing Position": 999
+    },
+    "Sam Bairstow": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "James Hahn": {
+      "Finishing Position": 999
+    },
+    "Joey Herrera": {
+      "Finishing Position": 999
+    },
+    "Mason Howell (a)": {
+      "Finishing Position": 999
+    },
+    "Frederic LaCroix": {
+      "Finishing Position": 999
+    },
+    "Austen Truslow": {
+      "Finishing Position": 999
+    },
+    "Cameron Tankersley (a)": {
+      "Finishing Position": 999
+    },
+    "Joe Highsmith": {
+      "Finishing Position": 999
+    },
+    "Justin Rose": {
+      "Finishing Position": 999
+    },
+    "Harrison Ott": {
+      "Finishing Position": 999
+    },
+    "Matthew Jordan": {
+      "Finishing Position": 999
+    },
+    "Noah Kent (a)": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Bryan Lee (a)": {
+      "Finishing Position": 999
+    },
+    "Zachery Pollo (a)": {
+      "Finishing Position": 999
+    },
+    "Doug Ghim": {
+      "Finishing Position": 999
+    },
+    "Shane Lowry": {
+      "Finishing Position": 999
+    },
+    "Brian Campbell": {
+      "Finishing Position": 999
+    },
+    "Alvaro Ortiz": {
+      "Finishing Position": 999
+    },
+    "Roberto D\u00edaz": {
+      "Finishing Position": 999
+    },
+    "Grant Haefner": {
+      "Finishing Position": 999
+    },
+    "Alistair Docherty": {
+      "Finishing Position": 999
+    },
+    "Chase Johnson": {
+      "Finishing Position": 999
+    },
+    "Preston Summerhays": {
+      "Finishing Position": 999
+    },
+    "Richard Bland": {
+      "Finishing Position": 999
+    },
+    "Guido Migliozzi": {
+      "Finishing Position": 999
+    },
+    "Andrea Pavan": {
+      "Finishing Position": 999
+    },
+    "Matt McCarty": {
+      "Finishing Position": 999
+    },
+    "George Kneiser": {
+      "Finishing Position": 999
+    },
+    "Trevor Gutschewski (a)": {
+      "Finishing Position": 999
+    },
+    "Joakim Lagergren": {
+      "Finishing Position": 999
+    },
+    "Yuta Sugiura": {
+      "Finishing Position": 999
+    },
+    "Will Chandler": {
+      "Finishing Position": 999
+    },
+    "Matt Vogt (a)": {
+      "Finishing Position": 999
+    },
+    "Justin Hicks": {
+      "Finishing Position": 999
+    },
+    "Justin Lower": {
+      "Finishing Position": 999
+    },
+    "Brady Calkins": {
+      "Finishing Position": 999
+    },
+    "George Duangmanee": {
+      "Finishing Position": 999
+    },
+    "Zach Bauchou": {
+      "Finishing Position": 999
+    },
+    "Corey Conners": {
+      "Finishing Position": 999
+    }
+  },
+  "OpenChampionship2025": {
+    "Scottie Scheffler": {
+      "Finishing Position": 1
+    },
+    "Harris English": {
+      "Finishing Position": 2
+    },
+    "Chris Gotterup": {
+      "Finishing Position": 3
+    },
+    "Wyndham Clark": {
+      "Finishing Position": 4
+    },
+    "Matt Fitzpatrick": {
+      "Finishing Position": 4
+    },
+    "Haotong Li": {
+      "Finishing Position": 4
+    },
+    "Robert MacIntyre": {
+      "Finishing Position": 7
+    },
+    "Xander Schauffele": {
+      "Finishing Position": 7
+    },
+    "Rory McIlroy": {
+      "Finishing Position": 7
+    },
+    "Bryson DeChambeau": {
+      "Finishing Position": 10
+    },
+    "Corey Conners": {
+      "Finishing Position": 10
+    },
+    "Russell Henley": {
+      "Finishing Position": 10
+    },
+    "Brian Harman": {
+      "Finishing Position": 10
+    },
+    "Rickie Fowler": {
+      "Finishing Position": 14
+    },
+    "Nicolai H\u00f8jgaard": {
+      "Finishing Position": 14
+    },
+    "Jesper Svensson": {
+      "Finishing Position": 16
+    },
+    "Hideki Matsuyama": {
+      "Finishing Position": 16
+    },
+    "John Parry": {
+      "Finishing Position": 16
+    },
+    "Tommy Fleetwood": {
+      "Finishing Position": 16
+    },
+    "Justin Rose": {
+      "Finishing Position": 16
+    },
+    "Rasmus H\u00f8jgaard": {
+      "Finishing Position": 16
+    },
+    "Tyrrell Hatton": {
+      "Finishing Position": 16
+    },
+    "Maverick McNealy": {
+      "Finishing Position": 23
+    },
+    "J.J. Spaun": {
+      "Finishing Position": 23
+    },
+    "Dustin Johnson": {
+      "Finishing Position": 23
+    },
+    "Lucas Glover": {
+      "Finishing Position": 23
+    },
+    "Ludvig \u00c5berg": {
+      "Finishing Position": 23
+    },
+    "Harry Hall": {
+      "Finishing Position": 28
+    },
+    "Oliver Lindell": {
+      "Finishing Position": 28
+    },
+    "Daniel Berger": {
+      "Finishing Position": 30
+    },
+    "Akshay Bhatia": {
+      "Finishing Position": 30
+    },
+    "Keegan Bradley": {
+      "Finishing Position": 30
+    },
+    "Kristoffer Reitan": {
+      "Finishing Position": 30
+    },
+    "Sergio Garcia": {
+      "Finishing Position": 34
+    },
+    "Aaron Rai": {
+      "Finishing Position": 34
+    },
+    "Jon Rahm": {
+      "Finishing Position": 34
+    },
+    "Justin Thomas": {
+      "Finishing Position": 34
+    },
+    "Christiaan Bezuidenhout": {
+      "Finishing Position": 34
+    },
+    "Lee Westwood": {
+      "Finishing Position": 34
+    },
+    "Shane Lowry": {
+      "Finishing Position": 40
+    },
+    "Jordan Spieth": {
+      "Finishing Position": 40
+    },
+    "Takumi Kanaya": {
+      "Finishing Position": 40
+    },
+    "Jason Kokrak": {
+      "Finishing Position": 40
+    },
+    "Nathan Kimsey": {
+      "Finishing Position": 40
+    },
+    "Thomas Detry": {
+      "Finishing Position": 45
+    },
+    "Matthew Jordan": {
+      "Finishing Position": 45
+    },
+    "Henrik Stenson": {
+      "Finishing Position": 45
+    },
+    "Thriston Lawrence": {
+      "Finishing Position": 45
+    },
+    "Jordan Smith": {
+      "Finishing Position": 45
+    },
+    "Sam Burns": {
+      "Finishing Position": 45
+    },
+    "Matt Wallace": {
+      "Finishing Position": 45
+    },
+    "Adrien Saddier": {
+      "Finishing Position": 52
+    },
+    "Sepp Straka": {
+      "Finishing Position": 52
+    },
+    "Sungjae Im": {
+      "Finishing Position": 52
+    },
+    "Marc Leishman": {
+      "Finishing Position": 52
+    },
+    "Phil Mickelson": {
+      "Finishing Position": 56
+    },
+    "Jhonattan Vegas": {
+      "Finishing Position": 56
+    },
+    "Tony Finau": {
+      "Finishing Position": 56
+    },
+    "Antoine Rozner": {
+      "Finishing Position": 59
+    },
+    "Justin Leonard": {
+      "Finishing Position": 59
+    },
+    "Dean Burmester": {
+      "Finishing Position": 61
+    },
+    "Romain Langasque": {
+      "Finishing Position": 61
+    },
+    "Riki Kawamoto": {
+      "Finishing Position": 63
+    },
+    "Andrew Novak": {
+      "Finishing Position": 63
+    },
+    "Viktor Hovland": {
+      "Finishing Position": 63
+    },
+    "Francesco Molinari": {
+      "Finishing Position": 63
+    },
+    "Ryggs Johnston": {
+      "Finishing Position": 63
+    },
+    "Jacob Skov Olesen": {
+      "Finishing Position": 68
+    },
+    "Matti Schmid": {
+      "Finishing Position": 69
+    },
+    "Sebastian S\u00f6derberg": {
+      "Finishing Position": 70
+    },
+    "Ryan Fox": {
+      "Finishing Position": 999
+    },
+    "Rikuya Hoshino": {
+      "Finishing Position": 999
+    },
+    "Ben Griffin": {
+      "Finishing Position": 999
+    },
+    "Matteo Manassero": {
+      "Finishing Position": 999
+    },
+    "Jason Day": {
+      "Finishing Position": 999
+    },
+    "Justin Suh": {
+      "Finishing Position": 999
+    },
+    "Daniel Hillier": {
+      "Finishing Position": 999
+    },
+    "Joaqu\u00edn Niemann": {
+      "Finishing Position": 999
+    },
+    "Kevin Yu": {
+      "Finishing Position": 999
+    },
+    "Max Greyserman": {
+      "Finishing Position": 999
+    },
+    "Nick Taylor": {
+      "Finishing Position": 999
+    },
+    "Ethan Fang (a)": {
+      "Finishing Position": 999
+    },
+    "Elvis Smylie": {
+      "Finishing Position": 999
+    },
+    "Carlos Ortiz": {
+      "Finishing Position": 999
+    },
+    "Taylor Pendrith": {
+      "Finishing Position": 999
+    },
+    "Si Woo Kim": {
+      "Finishing Position": 999
+    },
+    "Denny McCarthy": {
+      "Finishing Position": 999
+    },
+    "Brian Campbell": {
+      "Finishing Position": 999
+    },
+    "Cameron Adam": {
+      "Finishing Position": 999
+    },
+    "George Bloor": {
+      "Finishing Position": 999
+    },
+    "Julien Guerrier": {
+      "Finishing Position": 999
+    },
+    "Patrick Cantlay": {
+      "Finishing Position": 999
+    },
+    "Tom McKibbin": {
+      "Finishing Position": 999
+    },
+    "Matt McCarty": {
+      "Finishing Position": 999
+    },
+    "Zach Johnson": {
+      "Finishing Position": 999
+    },
+    "Angel Hidalgo": {
+      "Finishing Position": 999
+    },
+    "John Axelsen": {
+      "Finishing Position": 999
+    },
+    "Tom Kim": {
+      "Finishing Position": 999
+    },
+    "John Catlin": {
+      "Finishing Position": 999
+    },
+    "Niklas Norgaard": {
+      "Finishing Position": 999
+    },
+    "Stewart Cink": {
+      "Finishing Position": 999
+    },
+    "Daniel Young": {
+      "Finishing Position": 999
+    },
+    "Michael Kim": {
+      "Finishing Position": 999
+    },
+    "OJ Farrell": {
+      "Finishing Position": 999
+    },
+    "Marco Penge": {
+      "Finishing Position": 999
+    },
+    "Lucas Herbert": {
+      "Finishing Position": 999
+    },
+    "Cameron Young": {
+      "Finishing Position": 999
+    },
+    "Dylan Naidoo": {
+      "Finishing Position": 999
+    },
+    "Young-han Song": {
+      "Finishing Position": 999
+    },
+    "Thorbj\u00f8rn Olesen": {
+      "Finishing Position": 999
+    },
+    "Nico Echavarria": {
+      "Finishing Position": 999
+    },
+    "Jesper Sandborg": {
+      "Finishing Position": 999
+    },
+    "Aldrich Potgieter": {
+      "Finishing Position": 999
+    },
+    "Patrick Reed": {
+      "Finishing Position": 999
+    },
+    "Matthieu Pavon": {
+      "Finishing Position": 999
+    },
+    "Byeong Hun An": {
+      "Finishing Position": 999
+    },
+    "Min Woo Lee": {
+      "Finishing Position": 999
+    },
+    "Chris Kirk": {
+      "Finishing Position": 999
+    },
+    "Bud Cauley": {
+      "Finishing Position": 999
+    },
+    "Shaun Norris": {
+      "Finishing Position": 999
+    },
+    "Sadom Kaewkanjana": {
+      "Finishing Position": 999
+    },
+    "Louis Oosthuizen": {
+      "Finishing Position": 999
+    },
+    "Darren Clarke": {
+      "Finishing Position": 999
+    },
+    "Filip Jakubcik (a)": {
+      "Finishing Position": 999
+    },
+    "Laurie Canter": {
+      "Finishing Position": 999
+    },
+    "Justin Hastings": {
+      "Finishing Position": 999
+    },
+    "Davis Thompson": {
+      "Finishing Position": 999
+    },
+    "Curtis Knipes": {
+      "Finishing Position": 999
+    },
+    "Stephan Jaeger": {
+      "Finishing Position": 999
+    },
+    "Mackenzie Hughes": {
+      "Finishing Position": 999
+    },
+    "Darren Fichardt": {
+      "Finishing Position": 999
+    },
+    "Daniel Brown": {
+      "Finishing Position": 999
+    },
+    "Sahith Theegala": {
+      "Finishing Position": 999
+    },
+    "Brooks Koepka": {
+      "Finishing Position": 999
+    },
+    "Collin Morikawa": {
+      "Finishing Position": 999
+    },
+    "J.T. Poston": {
+      "Finishing Position": 999
+    },
+    "Curtis Luck": {
+      "Finishing Position": 999
+    },
+    "Frazer Jones (a)": {
+      "Finishing Position": 999
+    },
+    "Ryan Peake": {
+      "Finishing Position": 999
+    },
+    "Sampson Zheng": {
+      "Finishing Position": 999
+    },
+    "Richard Teder (a)": {
+      "Finishing Position": 999
+    },
+    "Justin Walters": {
+      "Finishing Position": 999
+    },
+    "Cameron Smith": {
+      "Finishing Position": 999
+    },
+    "Mikiya Akutsu": {
+      "Finishing Position": 999
+    },
+    "Martin Couvra": {
+      "Finishing Position": 999
+    },
+    "Davis Riley": {
+      "Finishing Position": 999
+    },
+    "Shugo Imahira": {
+      "Finishing Position": 999
+    },
+    "Padraig Harrington": {
+      "Finishing Position": 999
+    },
+    "Adam Scott": {
+      "Finishing Position": 999
+    },
+    "Connor Graham (a)": {
+      "Finishing Position": 999
+    },
+    "Sebastian Cave (a)": {
+      "Finishing Position": 999
+    },
+    "Tom Hoge": {
+      "Finishing Position": 999
+    },
+    "Guido Migliozzi": {
+      "Finishing Position": 999
+    },
+    "K.J. Choi": {
+      "Finishing Position": 999
+    },
+    "Daniel van Tonder": {
+      "Finishing Position": 999
+    },
+    "Bryan Newman (a)": {
+      "Finishing Position": 999
+    }
+  }
+}
