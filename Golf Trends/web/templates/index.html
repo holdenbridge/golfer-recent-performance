@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golf Trends Dashboard</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1a0f;
+      --panel: #162216;
+      --panel-hover: #1d2e1d;
+      --border: #2a4a2a;
+      --accent: #4caf50;
+      --accent-dim: #2e7d32;
+      --text: #e0e8e0;
+      --text-muted: #8fa88f;
+      --gold: #ffd54f;
+      --red: #ef5350;
+      --blue: #42a5f5;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 1.25rem 1rem 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--accent);
+    }
+    header p { color: var(--text-muted); font-size: 0.85rem; margin-top: 0.25rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      height: calc(100vh - 5rem);
+    }
+
+    .panel {
+      background: var(--panel);
+      padding: 1.25rem 1.5rem;
+      overflow-y: auto;
+    }
+
+    .panel-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* About panel */
+    .about-content h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--text); }
+    .about-content p { font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 0.75rem; }
+    .stat-row { display: flex; gap: 1rem; margin-top: 0.75rem; flex-wrap: wrap; }
+    .stat-card {
+      background: var(--panel-hover);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.6rem 0.9rem;
+      flex: 1;
+      min-width: 100px;
+    }
+    .stat-card .label { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1px; color: var(--text-muted); }
+    .stat-card .value { font-size: 1.2rem; font-weight: 700; color: var(--accent); margin-top: 0.15rem; }
+
+    /* Controls */
+    select, input[type="text"] {
+      background: var(--panel-hover);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.45rem 0.7rem;
+      font-size: 0.85rem;
+      outline: none;
+      width: 100%;
+      max-width: 300px;
+    }
+    select:focus, input[type="text"]:focus { border-color: var(--accent); }
+
+    /* Tables */
+    table { width: 100%; border-collapse: collapse; margin-top: 0.75rem; font-size: 0.8rem; }
+    th {
+      text-align: left;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--text-muted);
+      padding: 0.5rem 0.6rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    th:hover { color: var(--accent); }
+    td {
+      padding: 0.45rem 0.6rem;
+      border-bottom: 1px solid rgba(42, 74, 42, 0.3);
+      white-space: nowrap;
+    }
+    tr:hover td { background: var(--panel-hover); }
+    .num { text-align: right; font-variant-numeric: tabular-nums; }
+    .highlight { color: var(--gold); font-weight: 600; }
+
+    /* Player search */
+    .search-wrap { position: relative; margin-bottom: 0.75rem; }
+    .suggestions {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      max-width: 300px;
+      background: var(--panel-hover);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 4px 4px;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 10;
+      display: none;
+    }
+    .suggestions.open { display: block; }
+    .suggestions div {
+      padding: 0.4rem 0.7rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+    }
+    .suggestions div:hover { background: var(--accent-dim); }
+
+    .chart-container { width: 100%; height: calc(100% - 5.5rem); min-height: 250px; }
+
+    .empty-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-style: italic;
+    }
+
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; grid-template-rows: auto; height: auto; }
+      .panel { min-height: 350px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Golf Momentum Model</h1>
+</header>
+
+<div class="grid">
+
+  <!-- ==================== ABOUT (upper left) ==================== -->
+  <div class="panel" id="about-panel">
+    <div class="panel-title">About</div>
+    <div class="about-content">
+      <h3>What is this?</h3>
+      <p>
+        The idea of momentum is highly debated in the sports analytics community. Most analytically driven models that power sportsbooks like FanDuel 
+        and DraftKings are centered around a player's "true talent" and often place little to no emphasis on if a player has been hot or cold recently. 
+        My hypothesis is that given how much of a mental battle golf is, momentum can have a real impact on a player's performance.
+      </p>
+      <h3>Data sources</h3>
+      <div class="stat-row">
+        <a href="https://www.owgr.com/" target="_blank" rel="noopener" class="stat-card" style="text-decoration:none;color:inherit;">
+          <div class="label">OWGR</div>
+          <div class="value" style="font-size:0.75rem;">Player Rankings</div>
+        </a>
+        <a href="https://www.espn.com/golf/" target="_blank" rel="noopener" class="stat-card" style="text-decoration:none;color:inherit;">
+          <div class="label">ESPN</div>
+          <div class="value" style="font-size:0.75rem;">Tournament Fields</div>
+        </a>
+        <a href="https://datagolf.com/" target="_blank" rel="noopener" class="stat-card" style="text-decoration:none;color:inherit;">
+          <div class="label">Data Golf</div>
+          <div class="value" style="font-size:0.75rem;">Event Odds</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== NEXT EVENT (upper right) ==================== -->
+  <div class="panel" id="next-event-panel">
+    <div class="panel-title">Next Event</div>
+    <div class="empty-state" style="height:100%;font-style:normal;font-size:1.1rem;color:var(--accent);">In Progress</div>
+  </div>
+
+  <!-- ==================== PLAYER VISUALS (bottom left) ==================== -->
+  <div class="panel" id="player-panel">
+    <div class="panel-title">Player OWGR Points Over Time</div>
+    <div class="search-wrap">
+      <input type="text" id="player-search" placeholder="Search for a player&hellip;" autocomplete="off">
+      <div class="suggestions" id="player-suggestions"></div>
+    </div>
+    <div class="chart-container" id="player-chart">
+      <div class="empty-state">Search a player to see their OWGR trend</div>
+    </div>
+  </div>
+
+  <!-- ==================== PAST EVENTS (bottom right) ==================== -->
+  <div class="panel" id="past-event-panel">
+    <div class="panel-title">Past Events</div>
+    <select id="past-event-select">
+      <option value="">Select an event&hellip;</option>
+      {% for event in next_events %}
+      <option value="{{ event }}">{{ event }}</option>
+      {% endfor %}
+    </select>
+    <div id="past-event-table">
+      <div class="empty-state">Choose an event to see model predictions</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const ALL_PLAYERS = {{ players | tojson }};
+
+// ── Player Visuals ──────────────────────────────────────────
+const searchInput = document.getElementById("player-search");
+const sugBox = document.getElementById("player-suggestions");
+
+searchInput.addEventListener("input", () => {
+  const q = searchInput.value.toLowerCase().trim();
+  if (q.length < 2) { sugBox.classList.remove("open"); sugBox.innerHTML = ""; return; }
+  const matches = ALL_PLAYERS.filter(p => p.toLowerCase().includes(q)).slice(0, 15);
+  if (!matches.length) { sugBox.classList.remove("open"); return; }
+  sugBox.innerHTML = matches.map(p => `<div data-name="${p}">${p}</div>`).join("");
+  sugBox.classList.add("open");
+});
+
+sugBox.addEventListener("click", (e) => {
+  const div = e.target.closest("[data-name]");
+  if (!div) return;
+  searchInput.value = div.dataset.name;
+  sugBox.classList.remove("open");
+  loadPlayerChart(div.dataset.name);
+});
+
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".search-wrap")) sugBox.classList.remove("open");
+});
+
+async function loadPlayerChart(name) {
+  const container = document.getElementById("player-chart");
+  container.innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+  const res = await fetch(`/api/player/${encodeURIComponent(name)}`);
+  const data = await res.json();
+  if (data.error) { container.innerHTML = `<div class="empty-state">${data.error}</div>`; return; }
+  container.innerHTML = "";
+
+  const seasonDates = [], seasonPts = [], offDates = [], offPts = [];
+  data.dates.forEach((d, i) => {
+    if (data.is_offseason[i]) { offDates.push(d); offPts.push(data.avg_points[i]); }
+    else { seasonDates.push(d); seasonPts.push(data.avg_points[i]); }
+  });
+
+  const traces = [
+    { x: data.dates, y: data.avg_points, mode: "lines", line: { color: "#42a5f5", width: 2 }, name: "OWGR Avg Pts", hovertemplate: "%{x}<br>%{y:.4f}<extra></extra>" },
+    { x: offDates, y: offPts, mode: "markers", marker: { color: "#ef5350", size: 5, opacity: 0.5 }, name: "Offseason", hovertemplate: "%{x}<br>%{y:.4f}<extra>Offseason</extra>" },
+  ];
+
+  const majorColors = { "PlayersChampionship2025": "#ff9800", "Masters2025": "#4caf50", "PGAChampionship2025": "#1565c0", "USOpen2025": "#c62828", "OpenChampionship2025": "#ffd54f" };
+  const majorLabels = { "PlayersChampionship2025": "Players", "Masters2025": "Masters", "PGAChampionship2025": "PGA Champ", "USOpen2025": "US Open", "OpenChampionship2025": "The Open" };
+  data.majors.forEach(m => {
+    traces.push({
+      x: [m.date], y: [m.points], mode: "markers",
+      marker: { color: majorColors[m.name] || "#fff", size: 10, line: { color: "#000", width: 1 } },
+      name: majorLabels[m.name] || m.name,
+      hovertemplate: `${majorLabels[m.name] || m.name}<br>%{x}<br>%{y:.4f}<extra></extra>`,
+    });
+  });
+
+  const layout = {
+    paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+    font: { color: "#e0e8e0", size: 11 },
+    title: { text: name, font: { size: 14 } },
+    xaxis: { gridcolor: "rgba(42,74,42,0.3)", linecolor: "var(--border)" },
+    yaxis: { title: "Avg Points", gridcolor: "rgba(42,74,42,0.3)", linecolor: "var(--border)" },
+    margin: { t: 40, r: 20, b: 40, l: 55 },
+    legend: { orientation: "h", y: -0.2, font: { size: 10 } },
+    showlegend: true,
+  };
+
+  Plotly.newPlot(container, traces, layout, { responsive: true, displayModeBar: false });
+}
+
+// Load Scottie Scheffler by default
+searchInput.value = "Scottie Scheffler";
+loadPlayerChart("Scottie Scheffler");
+
+// ── Past Events (predictions) ───────────────────────────────
+document.getElementById("past-event-select").addEventListener("change", async (e) => {
+  const name = e.target.value;
+  const container = document.getElementById("past-event-table");
+  if (!name) { container.innerHTML = '<div class="empty-state">Choose an event to see model predictions</div>'; return; }
+  container.innerHTML = '<div class="empty-state">Loading&hellip;</div>';
+  const res = await fetch(`/api/next-event/${encodeURIComponent(name)}`);
+  const data = await res.json();
+  if (!data.length) { container.innerHTML = '<div class="empty-state">No predictions available</div>'; return; }
+
+  function calcUnits(odds, pos) {
+    if (pos == null || pos >= 999) return null;
+    const o = parseFloat(String(odds).replace('+', ''));
+    if (isNaN(o)) return null;
+    const won = pos <= 20;
+    if (won) return o > 0 ? o / 100 : 100 / Math.abs(o);
+    return -1;
+  }
+
+  let html = `<table>
+    <thead><tr>
+      <th>#</th><th>Player</th><th class="num">Model&nbsp;Prob</th>
+      <th class="num">T20&nbsp;Odds</th><th class="num">Actual&nbsp;Finish</th>
+      <th class="num">Units&nbsp;Won</th>
+    </tr></thead><tbody>`;
+  data.forEach((r, i) => {
+    const mp = (r.ModelPrediction * 100).toFixed(1);
+    const edge = r.ModelPrediction > r.T20_ImpliedProb;
+    const pos = r.FinishingPosition >= 999 ? "CUT" : r.FinishingPosition;
+    const units = calcUnits(r.T20Odds, r.FinishingPosition);
+    const unitsStr = units == null ? "—" : (units > 0 ? "+" : "") + units.toFixed(2);
+    const unitsClass = units == null ? "" : units > 0 ? "highlight" : "";
+    html += `<tr>
+      <td>${i + 1}</td>
+      <td>${r.PlayerName}</td>
+      <td class="num ${edge ? 'highlight' : ''}">${mp}%</td>
+      <td class="num">${r.T20Odds}</td>
+      <td class="num">${pos}</td>
+      <td class="num ${unitsClass}">${unitsStr}</td>
+    </tr>`;
+  });
+  html += "</tbody></table>";
+  container.innerHTML = html;
+});
+</script>
+
+</body>
+</html>
