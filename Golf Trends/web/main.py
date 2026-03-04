@@ -44,9 +44,20 @@ NEXT_EVENTS: dict[str, str] = {
     "ATTPebble2026": "2026-02-14",
     "Genesis2026": "2026-02-21",
     "Cognizant2026": "2026-02-28",
+    "ArnoldPalmer2026": "2026-03-07",
 }
 
 MAJOR_DATES = {
+    "PlayersChampionship2023": "2023-03-04",
+    "Masters2023": "2023-04-01",
+    "PGAChampionship2023": "2023-05-13",
+    "USOpen2023": "2023-06-10",
+    "OpenChampionship2023": "2023-07-15",
+    "PlayersChampionship2024": "2024-03-09",
+    "Masters2024": "2024-04-06",
+    "PGAChampionship2024": "2024-05-11",
+    "USOpen2024": "2024-06-08",
+    "OpenChampionship2024": "2024-07-13",
     "PlayersChampionship2025": "2025-03-08",
     "Masters2025": "2025-04-05",
     "PGAChampionship2025": "2025-05-10",
@@ -67,6 +78,12 @@ MODEL_FEATURES = [
 # Prediction helpers (ported from live_predict.ipynb)
 # ---------------------------------------------------------------------------
 
+def _closest_date_on_or_before(player_dates: dict, target: str) -> str | None:
+    """Return the closest date key <= *target*, or None if none exists."""
+    candidates = [d for d in player_dates if d <= target]
+    return max(candidates) if candidates else None
+
+
 def _evaluate_live_event(event_start_date: str, event_name: str) -> pd.DataFrame:
     weeks_before = range(1, 13)
     base_date = datetime.strptime(event_start_date, "%Y-%m-%d")
@@ -82,8 +99,10 @@ def _evaluate_live_event(event_start_date: str, event_name: str) -> pd.DataFrame
             continue
         row = {"PlayerName": player}
         for colname, week_date in week_dates.items():
-            row[colname] = data.get(week_date, {}).get("Avg_Points")
-        row["Avg_Points_StartEvent"] = data.get(event_start_date, {}).get("Avg_Points")
+            actual = _closest_date_on_or_before(data, week_date)
+            row[colname] = data[actual].get("Avg_Points") if actual else None
+        start_key = _closest_date_on_or_before(data, event_start_date)
+        row["Avg_Points_StartEvent"] = data[start_key].get("Avg_Points") if start_key else None
         if row["Avg_Points_StartEvent"] is None:
             continue
         row["EventName"] = event_name
@@ -109,7 +128,11 @@ def _prepare_live_event(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _engineer_features(df: pd.DataFrame) -> pd.DataFrame:
-    df = df.dropna().copy()
+    required_cols = (
+        ["Avg_Points_StartEvent", "T20Odds"]
+        + [f"Week{i}Change" for i in range(1, 13)]
+    )
+    df = df.dropna(subset=required_cols).copy()
     df["T20Prob"] = df["T20Odds"].apply(american_odds_to_implied_prob)
     df["EstimatedFinishingPosition"] = df.apply(estimate_finishing_position, axis=1)
     df["momentum_slope"] = df.apply(calc_slope, axis=1)
@@ -147,7 +170,8 @@ def get_event_predictions(event_name: str) -> list[dict]:
     prepared = _prepare_live_event(raw)
     df = _engineer_features(prepared)
     cols = [
-        "PlayerName", "ModelPrediction", "T20Odds", "T20_ImpliedProb",
+        "PlayerName", "ModelPrediction",
+        "WinOdds", "T5Odds", "T10Odds", "T20Odds", "T20_ImpliedProb",
         "FinishingPosition", "EstimatedFinishingPosition",
     ]
     result = df[cols].sort_values("ModelPrediction", ascending=False)
@@ -156,6 +180,21 @@ def get_event_predictions(event_name: str) -> list[dict]:
 # ---------------------------------------------------------------------------
 # Player time-series helper (ported from golf_trends_trading.ipynb)
 # ---------------------------------------------------------------------------
+
+def _get_current_ranking(player_name: str) -> int | None:
+    """Rank all players by their latest Avg_Points (descending) and return 1-based rank."""
+    latest_points = []
+    for name, date_map in owgr_dict.items():
+        latest_date = max(date_map.keys())
+        pts = date_map[latest_date].get("Avg_Points")
+        if pts is not None:
+            latest_points.append((name, pts))
+    latest_points.sort(key=lambda x: x[1], reverse=True)
+    for i, (name, _) in enumerate(latest_points, 1):
+        if name == player_name:
+            return i
+    return None
+
 
 def get_player_timeseries(player_name: str) -> dict:
     if player_name not in owgr_dict:
@@ -176,6 +215,7 @@ def get_player_timeseries(player_name: str) -> dict:
             majors.append({"date": mdate, "points": avg_points[idx], "name": name})
     return {
         "player": player_name,
+        "ranking": _get_current_ranking(player_name),
         "dates": dates,
         "avg_points": avg_points,
         "is_offseason": is_offseason,
@@ -212,12 +252,20 @@ app = FastAPI(title="Golf Trends Dashboard")
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
 
+CURRENT_NEXT_EVENT = max(NEXT_EVENTS, key=NEXT_EVENTS.get)
+
+
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
+    past = sorted(
+        (e for e in NEXT_EVENTS if e != CURRENT_NEXT_EVENT),
+        key=lambda e: NEXT_EVENTS[e],
+        reverse=True,
+    )
     return templates.TemplateResponse("index.html", {
         "request": request,
-        "next_events": list(NEXT_EVENTS.keys()),
-        "past_events": sorted(tournament_fields.keys()),
+        "next_event": CURRENT_NEXT_EVENT,
+        "past_events": past,
         "players": sorted(owgr_dict.keys()),
     })
 

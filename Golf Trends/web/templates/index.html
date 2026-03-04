@@ -45,7 +45,7 @@
     .grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 45fr 55fr;
       gap: 1px;
       background: var(--border);
       height: calc(100vh - 5rem);
@@ -182,6 +182,11 @@
         and DraftKings are centered around a player's "true talent" and often place little to no emphasis on if a player has been hot or cold recently. 
         My hypothesis is that given how much of a mental battle golf is, momentum can have a real impact on a player's performance.
       </p>
+      <h3>Betting Strategy</h3>
+      <table>
+        <thead><tr><th class="num">Win</th><th class="num">Top 5</th><th class="num">Top 10</th><th class="num">Top 20</th></tr></thead>
+        <tbody><tr><td class="num">1 unit</td><td class="num">2 units</td><td class="num">3 units</td><td class="num">4 units</td></tr></tbody>
+      </table>
       <h3>Data sources</h3>
       <div class="stat-row">
         <a href="https://www.owgr.com/" target="_blank" rel="noopener" class="stat-card" style="text-decoration:none;color:inherit;">
@@ -202,8 +207,10 @@
 
   <!-- ==================== NEXT EVENT (upper right) ==================== -->
   <div class="panel" id="next-event-panel">
-    <div class="panel-title">Next Event</div>
-    <div class="empty-state" style="height:100%;font-style:normal;font-size:1.1rem;color:var(--accent);">In Progress</div>
+    <div class="panel-title">Next Event — {{ next_event }}</div>
+    <div id="next-event-table">
+      <div class="empty-state">Loading&hellip;</div>
+    </div>
   </div>
 
   <!-- ==================== PLAYER VISUALS (bottom left) ==================== -->
@@ -223,7 +230,7 @@
     <div class="panel-title">Past Events</div>
     <select id="past-event-select">
       <option value="">Select an event&hellip;</option>
-      {% for event in next_events %}
+      {% for event in past_events %}
       <option value="{{ event }}">{{ event }}</option>
       {% endfor %}
     </select>
@@ -277,27 +284,33 @@ async function loadPlayerChart(name) {
   });
 
   const traces = [
-    { x: data.dates, y: data.avg_points, mode: "lines", line: { color: "#42a5f5", width: 2 }, name: "OWGR Avg Pts", hovertemplate: "%{x}<br>%{y:.4f}<extra></extra>" },
+    { x: data.dates, y: data.avg_points, mode: "lines", line: { color: "#42a5f5", width: 2 }, showlegend: false, hovertemplate: "%{x}<br>%{y:.4f}<extra></extra>" },
     { x: offDates, y: offPts, mode: "markers", marker: { color: "#ef5350", size: 5, opacity: 0.5 }, name: "Offseason", hovertemplate: "%{x}<br>%{y:.4f}<extra>Offseason</extra>" },
   ];
 
-  const majorColors = { "PlayersChampionship2025": "#ff9800", "Masters2025": "#4caf50", "PGAChampionship2025": "#1565c0", "USOpen2025": "#c62828", "OpenChampionship2025": "#ffd54f" };
-  const majorLabels = { "PlayersChampionship2025": "Players", "Masters2025": "Masters", "PGAChampionship2025": "PGA Champ", "USOpen2025": "US Open", "OpenChampionship2025": "The Open" };
+  const majorColors = { "PlayersChampionship": "#ff9800", "Masters": "#4caf50", "PGAChampionship": "#1565c0", "USOpen": "#c62828", "OpenChampionship": "#ffd54f" };
+  const majorLabels = { "PlayersChampionship": "Players", "Masters": "Masters", "PGAChampionship": "PGA Champ", "USOpen": "US Open", "OpenChampionship": "The Open" };
+  function majorKey(name) { return name.replace(/\d+$/, ""); }
+  const seenLegendLabels = new Set();
   data.majors.forEach(m => {
+    const key = majorKey(m.name);
+    const label = majorLabels[key] || m.name;
+    const showInLegend = !seenLegendLabels.has(label);
+    seenLegendLabels.add(label);
     traces.push({
       x: [m.date], y: [m.points], mode: "markers",
-      marker: { color: majorColors[m.name] || "#fff", size: 10, line: { color: "#000", width: 1 } },
-      name: majorLabels[m.name] || m.name,
-      hovertemplate: `${majorLabels[m.name] || m.name}<br>%{x}<br>%{y:.4f}<extra></extra>`,
+      marker: { color: majorColors[key] || "#fff", size: 10, line: { color: "#000", width: 1 } },
+      name: label, legendgroup: label, showlegend: showInLegend,
+      hovertemplate: `${label}<br>%{x}<br>%{y:.4f}<extra></extra>`,
     });
   });
 
   const layout = {
     paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
     font: { color: "#e0e8e0", size: 11 },
-    title: { text: name, font: { size: 14 } },
+    title: { text: data.ranking ? `${name} (${data.ranking})` : name, font: { size: 14 } },
     xaxis: { gridcolor: "rgba(42,74,42,0.3)", linecolor: "var(--border)" },
-    yaxis: { title: "Avg Points", gridcolor: "rgba(42,74,42,0.3)", linecolor: "var(--border)" },
+    yaxis: { title: "OWGR Avg Points", gridcolor: "rgba(42,74,42,0.3)", linecolor: "var(--border)" },
     margin: { t: 40, r: 20, b: 40, l: 55 },
     legend: { orientation: "h", y: -0.2, font: { size: 10 } },
     showlegend: true,
@@ -310,6 +323,92 @@ async function loadPlayerChart(name) {
 searchInput.value = "Scottie Scheffler";
 loadPlayerChart("Scottie Scheffler");
 
+// ── Shared helpers ──────────────────────────────────────────
+function parseOdds(odds) {
+  const o = parseFloat(String(odds).replace('+', ''));
+  return isNaN(o) ? null : o;
+}
+
+function calcUnits(r) {
+  const pos = r.FinishingPosition;
+  if (pos == null) return null;
+  const win  = parseOdds(r.WinOdds);
+  const t5   = parseOdds(r.T5Odds);
+  const t10  = parseOdds(r.T10Odds);
+  const t20  = parseOdds(r.T20Odds);
+  if (win == null || t5 == null || t10 == null || t20 == null) return null;
+  let total = 0;
+  total += pos === 1  ? 1 * (win > 0 ? win / 100 : 100 / Math.abs(win)) : -1;
+  total += pos <= 5   ? 2 * (t5  > 0 ? t5  / 100 : 100 / Math.abs(t5)) : -2;
+  total += pos <= 10  ? 3 * (t10 > 0 ? t10 / 100 : 100 / Math.abs(t10)) : -3;
+  total += pos <= 20  ? 4 * (t20 > 0 ? t20 / 100 : 100 / Math.abs(t20)) : -4;
+  return total;
+}
+
+function renderPredictionTable(data, container, mode = "past") {
+  if (!data.length) { container.innerHTML = '<div class="empty-state">No predictions available</div>'; return; }
+  data.sort((a, b) => b.ModelPrediction - a.ModelPrediction);
+  const top5 = data.slice(0, 5);
+
+  let html = `<table><thead><tr>
+      <th>#</th><th>Player</th><th class="num">Model&nbsp;Prob</th>
+      <th class="num">T20&nbsp;Odds</th>`;
+  if (mode === "next") {
+    html += `<th class="num">Win&nbsp;Odds</th>`;
+  } else {
+    html += `<th class="num">Actual&nbsp;Finish</th><th class="num">Units&nbsp;Won</th>`;
+  }
+  html += `</tr></thead><tbody>`;
+
+  top5.forEach((r, i) => {
+    const mp = (r.ModelPrediction * 100).toFixed(1);
+    html += `<tr>
+      <td>${i + 1}</td>
+      <td>${r.PlayerName}</td>
+      <td class="num highlight">${mp}%</td>
+      <td class="num">${r.T20Odds}</td>`;
+    if (mode === "next") {
+      html += `<td class="num">${r.WinOdds != null ? r.WinOdds : "—"}</td>`;
+    } else {
+      const pos = r.FinishingPosition >= 999 ? "CUT" : r.FinishingPosition;
+      const units = calcUnits(r);
+      const unitsStr = units == null ? "—" : (units > 0 ? "+" : "") + units.toFixed(2);
+      const unitsStyle = units == null ? "" : `font-weight:700;color:${units > 0 ? "var(--accent)" : "var(--red)"}"`;
+      html += `<td class="num">${pos}</td>
+      <td class="num" style="${unitsStyle}">${unitsStr}</td>`;
+    }
+    html += `</tr>`;
+  });
+  html += "</tbody></table>";
+
+  if (mode === "past") {
+    let totalUnits = 0;
+    let hasUnits = false;
+    top5.forEach(r => {
+      const u = calcUnits(r);
+      if (u != null) { totalUnits += u; hasUnits = true; }
+    });
+    if (hasUnits) {
+      const sign = totalUnits > 0 ? "+" : "";
+      const color = totalUnits > 0 ? "var(--accent)" : "var(--red)";
+      html += `<div class="stat-card" style="margin-top:0.75rem;width:100%;text-align:center;">
+        <div class="label">Total Units</div>
+        <div class="value" style="color:${color}">${sign}${totalUnits.toFixed(2)}</div>
+      </div>`;
+    }
+  }
+
+  container.innerHTML = html;
+}
+
+// ── Next Event (auto-load ArnoldPalmer2026) ─────────────────
+(async () => {
+  const container = document.getElementById("next-event-table");
+  const res = await fetch(`/api/next-event/{{ next_event }}`);
+  const data = await res.json();
+  renderPredictionTable(data, container, "next");
+})();
+
 // ── Past Events (predictions) ───────────────────────────────
 document.getElementById("past-event-select").addEventListener("change", async (e) => {
   const name = e.target.value;
@@ -318,41 +417,7 @@ document.getElementById("past-event-select").addEventListener("change", async (e
   container.innerHTML = '<div class="empty-state">Loading&hellip;</div>';
   const res = await fetch(`/api/next-event/${encodeURIComponent(name)}`);
   const data = await res.json();
-  if (!data.length) { container.innerHTML = '<div class="empty-state">No predictions available</div>'; return; }
-
-  function calcUnits(odds, pos) {
-    if (pos == null || pos >= 999) return null;
-    const o = parseFloat(String(odds).replace('+', ''));
-    if (isNaN(o)) return null;
-    const won = pos <= 20;
-    if (won) return o > 0 ? o / 100 : 100 / Math.abs(o);
-    return -1;
-  }
-
-  let html = `<table>
-    <thead><tr>
-      <th>#</th><th>Player</th><th class="num">Model&nbsp;Prob</th>
-      <th class="num">T20&nbsp;Odds</th><th class="num">Actual&nbsp;Finish</th>
-      <th class="num">Units&nbsp;Won</th>
-    </tr></thead><tbody>`;
-  data.forEach((r, i) => {
-    const mp = (r.ModelPrediction * 100).toFixed(1);
-    const edge = r.ModelPrediction > r.T20_ImpliedProb;
-    const pos = r.FinishingPosition >= 999 ? "CUT" : r.FinishingPosition;
-    const units = calcUnits(r.T20Odds, r.FinishingPosition);
-    const unitsStr = units == null ? "—" : (units > 0 ? "+" : "") + units.toFixed(2);
-    const unitsClass = units == null ? "" : units > 0 ? "highlight" : "";
-    html += `<tr>
-      <td>${i + 1}</td>
-      <td>${r.PlayerName}</td>
-      <td class="num ${edge ? 'highlight' : ''}">${mp}%</td>
-      <td class="num">${r.T20Odds}</td>
-      <td class="num">${pos}</td>
-      <td class="num ${unitsClass}">${unitsStr}</td>
-    </tr>`;
-  });
-  html += "</tbody></table>";
-  container.innerHTML = html;
+  renderPredictionTable(data, container);
 });
 </script>
 
