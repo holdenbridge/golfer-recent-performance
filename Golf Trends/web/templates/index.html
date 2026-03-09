@@ -187,6 +187,11 @@
         <thead><tr><th class="num">Win</th><th class="num">Top 5</th><th class="num">Top 10</th><th class="num">Top 20</th></tr></thead>
         <tbody><tr><td class="num">1 unit</td><td class="num">2 units</td><td class="num">3 units</td><td class="num">4 units</td></tr></tbody>
       </table>
+      <div class="stat-card" id="total-2026-units" style="margin-top:0.75rem;margin-bottom:0.75rem;text-align:center;">
+        <div class="label">Total 2026 Units</div>
+        <div class="value" id="total-2026-value" style="font-size:1.2rem;">…</div>
+      </div>
+      <p id="random-baseline" style="font-size:0.78rem;color:var(--text-muted);margin-bottom:0.75rem;font-style:italic;"></p>
       <h3>Data sources</h3>
       <div class="stat-row">
         <a href="https://www.owgr.com/" target="_blank" rel="noopener" class="stat-card" style="text-decoration:none;color:inherit;">
@@ -345,9 +350,23 @@ function calcUnits(r) {
   return total;
 }
 
+function cmpModelPrediction(a, b) {
+  const diff = b.ModelPrediction - a.ModelPrediction;
+  if (diff !== 0) return diff;
+  const t20A = parseOdds(a.T20Odds), t20B = parseOdds(b.T20Odds);
+  if (t20A != null && t20B != null && t20A !== t20B) return t20A - t20B;
+  if (t20A == null && t20B != null) return 1;
+  if (t20A != null && t20B == null) return -1;
+  const winA = parseOdds(a.WinOdds), winB = parseOdds(b.WinOdds);
+  if (winA != null && winB != null && winA !== winB) return winA - winB;
+  if (winA == null && winB != null) return 1;
+  if (winA != null && winB == null) return -1;
+  return (a.PlayerName || "").localeCompare(b.PlayerName || "");
+}
+
 function renderPredictionTable(data, container, mode = "past") {
   if (!data.length) { container.innerHTML = '<div class="empty-state">No predictions available</div>'; return; }
-  data.sort((a, b) => b.ModelPrediction - a.ModelPrediction);
+  data.sort(cmpModelPrediction);
   const top5 = data.slice(0, 5);
 
   let html = `<table><thead><tr>
@@ -370,7 +389,7 @@ function renderPredictionTable(data, container, mode = "past") {
     if (mode === "next") {
       html += `<td class="num">${r.WinOdds != null ? r.WinOdds : "—"}</td>`;
     } else {
-      const pos = r.FinishingPosition >= 999 ? "CUT" : r.FinishingPosition;
+      const pos = r.FinishingPosition >= 999 ? "CUT" : r.FinishingPosition === 998 ? "WD" : r.FinishingPosition;
       const units = calcUnits(r);
       const unitsStr = units == null ? "—" : (units > 0 ? "+" : "") + units.toFixed(2);
       const unitsStyle = units == null ? "" : `font-weight:700;color:${units > 0 ? "var(--accent)" : "var(--red)"}"`;
@@ -407,6 +426,49 @@ function renderPredictionTable(data, container, mode = "past") {
   const res = await fetch(`/api/next-event/{{ next_event }}`);
   const data = await res.json();
   renderPredictionTable(data, container, "next");
+})();
+
+// ── Total 2026 Units (sum across all past events) ───────────
+(async () => {
+  const pastEvents = {{ past_events | tojson }};
+  let grandTotal = 0;
+  let hasAny = false;
+  let randomTotal = 0;
+  let randomEvents = 0;
+  await Promise.all(pastEvents.map(async (evt) => {
+    const [modelRes, fieldRes] = await Promise.all([
+      fetch(`/api/next-event/${encodeURIComponent(evt)}`),
+      fetch(`/api/past-event/${encodeURIComponent(evt)}`),
+    ]);
+    const modelData = await modelRes.json();
+    const fieldData = await fieldRes.json();
+    if (modelData.length) {
+      modelData.sort(cmpModelPrediction);
+      modelData.slice(0, 5).forEach(r => {
+        const u = calcUnits(r);
+        if (u != null) { grandTotal += u; hasAny = true; }
+      });
+    }
+    const fieldUnits = fieldData.map(r => calcUnits(r)).filter(u => u != null);
+    if (fieldUnits.length >= 5) {
+      const avg = fieldUnits.reduce((a, b) => a + b, 0) / fieldUnits.length;
+      randomTotal += avg * 5;
+      randomEvents++;
+    }
+  }));
+  const el = document.getElementById("total-2026-value");
+  if (hasAny) {
+    const sign = grandTotal > 0 ? "+" : "";
+    el.style.color = grandTotal > 0 ? "var(--accent)" : "var(--red)";
+    el.textContent = `${sign}${grandTotal.toFixed(2)}`;
+  } else {
+    el.textContent = "—";
+  }
+  if (randomEvents > 0) {
+    const rSign = randomTotal > 0 ? "+" : "";
+    document.getElementById("random-baseline").textContent =
+      `Picking 5 random golfers for each event would have yielded ${rSign}${randomTotal.toFixed(2)} units`;
+  }
 })();
 
 // ── Past Events (predictions) ───────────────────────────────

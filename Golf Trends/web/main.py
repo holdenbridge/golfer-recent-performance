@@ -45,6 +45,7 @@ NEXT_EVENTS: dict[str, str] = {
     "Genesis2026": "2026-02-21",
     "Cognizant2026": "2026-02-28",
     "ArnoldPalmer2026": "2026-03-07",
+    "PlayersChampionship2026": "2026-03-14",
 }
 
 MAJOR_DATES = {
@@ -87,6 +88,7 @@ def _closest_date_on_or_before(player_dates: dict, target: str) -> str | None:
 def _evaluate_live_event(event_start_date: str, event_name: str) -> pd.DataFrame:
     weeks_before = range(1, 13)
     base_date = datetime.strptime(event_start_date, "%Y-%m-%d")
+    pre_event_date = (base_date - timedelta(weeks=1)).strftime("%Y-%m-%d")
     week_dates = {
         f"Avg_Points_{w}weekbefore": (base_date - timedelta(weeks=w)).strftime("%Y-%m-%d")
         for w in weeks_before
@@ -101,7 +103,7 @@ def _evaluate_live_event(event_start_date: str, event_name: str) -> pd.DataFrame
         for colname, week_date in week_dates.items():
             actual = _closest_date_on_or_before(data, week_date)
             row[colname] = data[actual].get("Avg_Points") if actual else None
-        start_key = _closest_date_on_or_before(data, event_start_date)
+        start_key = _closest_date_on_or_before(data, pre_event_date)
         row["Avg_Points_StartEvent"] = data[start_key].get("Avg_Points") if start_key else None
         if row["Avg_Points_StartEvent"] is None:
             continue

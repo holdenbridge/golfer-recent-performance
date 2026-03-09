@@ -111,8 +111,8 @@ def get_player_results(tournament_id: str) -> dict[str, dict]:
 
 if __name__ == '__main__':
     # Example: 2023 THE PLAYERS Championship
-    tournament_id = '401811935'
-    tournament_name = 'ArnoldPalmer2026'
+    tournament_id = '401811937'
+    tournament_name = 'PlayersChampionship2026'
     
     players = get_tournament_players(tournament_id)
     
