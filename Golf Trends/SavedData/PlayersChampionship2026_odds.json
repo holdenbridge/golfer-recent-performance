@@ -1339,6 +1339,17 @@
         {
             "bet_outcome_numeric": 0,
             "bet_outcome_text": "loss",
+            "close_odds": "+40000",
+            "close_time": "2025-03-13 00:48",
+            "dg_id": null,
+            "open_odds": "+40000",
+            "open_time": "2025-03-10 11:56",
+            "outcome": "",
+            "player_name": "Smotherman, Austin"
+        },
+        {
+            "bet_outcome_numeric": 0,
+            "bet_outcome_text": "loss",
             "close_odds": "+100000",
             "close_time": "2025-03-13 00:48",
             "dg_id": null,
@@ -2602,6 +2613,17 @@
             "open_time": "2025-03-10 11:56",
             "outcome": "",
             "player_name": "Mouw, William"
+        },
+        {
+            "bet_outcome_numeric": 0,
+            "bet_outcome_text": "loss",
+            "close_odds": "+1000",
+            "close_time": "2025-03-13 00:48",
+            "dg_id": null,
+            "open_odds": "+1000",
+            "open_time": "2025-03-10 11:56",
+            "outcome": "",
+            "player_name": "Smotherman, Austin"
         },
         {
             "bet_outcome_numeric": 0,

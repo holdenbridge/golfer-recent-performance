@@ -31,7 +31,7 @@ def get_tournament_players(tournament_id: str) -> list[dict]:
     
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    players = []
+    players: list[dict] = []
     
     # Find all leaderboard table rows
     # Each row contains position and player info
@@ -111,13 +111,13 @@ def get_player_results(tournament_id: str) -> dict[str, dict]:
 
 if __name__ == '__main__':
     # Example: 2023 THE PLAYERS Championship
-    tournament_id = '401811937'
-    tournament_name = 'PlayersChampionship2026'
+    tournament_id = '401465517'
+    tournament_name = 'ATTPebble2023'
     
     players = get_tournament_players(tournament_id)
     
     # Path to the JSON file (same directory as this script)
-    json_path = os.path.join(os.path.dirname(__file__), 'tournament_fields.json')
+    json_path = os.path.join(os.path.dirname(__file__), 'SavedData', 'tournament_fields.json')
     
     # Load existing data or create empty dict
     if os.path.exists(json_path):

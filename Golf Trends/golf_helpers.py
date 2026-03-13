@@ -231,7 +231,7 @@ class BinaryXGBClassifier:
     def run(self):
         # this function should fit the model and return a tuple of (fitted final model, score, best params)
         self.fit()
-        self.plot_feature_importances()
-        self.plot_roc_auc_curve(self.X_test, self.y_test)
+        # self.plot_feature_importances()
+        # self.plot_roc_auc_curve(self.X_test, self.y_test)
         scores = self.score(self.X_test, self.y_test)
         return self.grid.best_estimator_, scores, self.grid.best_params_

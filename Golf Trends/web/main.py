@@ -12,7 +12,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 
 GOLF_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = GOLF_DIR / "owgr_historical"
+DATA_DIR = GOLF_DIR / "SavedData"
 
 sys.path.insert(0, str(GOLF_DIR))
 from golf_helpers import (
@@ -33,10 +33,14 @@ with open(DATA_DIR / "owgr_dict.json") as f:
 with open(DATA_DIR / "tournament_fields.json") as f:
     tournament_fields: dict = json.load(f)
 
-model_files = sorted(glob(str(GOLF_DIR / "beat_expectation_model_*.pkl")))
-if not model_files:
-    raise FileNotFoundError("No beat_expectation_model_*.pkl found in Golf Trends/")
-with open(model_files[-1], "rb") as f:
+# Selects the most recent model by sorted date
+# model_files = sorted(glob(str(GOLF_DIR / "beat_expectation_model_*.pkl")))
+# if not model_files:
+#     raise FileNotFoundError("No beat_expectation_model_*.pkl found in Golf Trends/")
+# with open(model_files[-1], "rb") as f:
+#     xgb_model = pickle.load(f)
+
+with open(GOLF_DIR / "beat_expectation_model_03_02_26.pkl", "rb") as f:
     xgb_model = pickle.load(f)
 
 NEXT_EVENTS: dict[str, str] = {

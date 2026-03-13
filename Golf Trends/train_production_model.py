@@ -6,13 +6,15 @@ import datetime
 from golf_helpers import evaluate_event, prepare_modeling_df, american_odds_to_implied_prob, estimate_finishing_position, calc_slope, recent_streak, BinaryXGBClassifier
 warnings.filterwarnings('ignore')
 
-folder_path = '/Users/holden.bridge/Desktop/golf-research/Golf Trends/owgr_historical'
+folder_path = '/Users/holden.bridge/Desktop/golf-research/Golf Trends/SavedData'
 with open(f'{folder_path}/owgr_dict.json', 'r') as f:
         owgr_dict = json.load(f)
 with open(f'{folder_path}/tournament_fields.json', 'r') as f:
         tournament_fields = json.load(f)
 
 # 2025 Season
+df_att_pebble2025 = evaluate_event("2025-01-25", "2025-02-01", owgr_dict, "ATTPebble2025", folder_path, tournament_fields)
+df_arnold_palmer2025 = evaluate_event("2025-03-01", "2025-03-08", owgr_dict, "ArnoldPalmer2025", folder_path, tournament_fields)
 df_players2025 = evaluate_event("2025-03-08", "2025-03-15", owgr_dict, "PlayersChampionship2025", folder_path, tournament_fields)
 df_masters2025 = evaluate_event("2025-04-05", "2025-04-12", owgr_dict, "Masters2025", folder_path, tournament_fields)
 df_PGA_Championship2025 = evaluate_event("2025-05-10", "2025-05-17", owgr_dict, "PGAChampionship2025", folder_path, tournament_fields)
@@ -20,6 +22,8 @@ df_US_Open2025 = evaluate_event("2025-06-07", "2025-06-14", owgr_dict, "USOpen20
 df_Open_Championship2025 = evaluate_event("2025-07-12", "2025-07-19", owgr_dict, "OpenChampionship2025", folder_path, tournament_fields)
 
 # 2024 Season
+df_att_pebble2024 = evaluate_event("2024-01-27", "2024-02-03", owgr_dict, "ATTPebble2024", folder_path, tournament_fields)
+df_arnold_palmer2024 = evaluate_event("2024-03-02", "2024-03-09", owgr_dict, "ArnoldPalmer2024", folder_path, tournament_fields)
 df_players2024 = evaluate_event("2024-03-09", "2024-03-16", owgr_dict, "PlayersChampionship2024", folder_path, tournament_fields)
 df_masters2024 = evaluate_event("2024-04-06", "2024-04-13", owgr_dict, "Masters2024", folder_path, tournament_fields)
 df_PGA_Championship2024 = evaluate_event("2024-05-11", "2024-05-18", owgr_dict, "PGAChampionship2024", folder_path, tournament_fields)
@@ -27,6 +31,8 @@ df_US_Open2024 = evaluate_event("2024-06-08", "2024-06-15", owgr_dict, "USOpen20
 df_Open_Championship2024 = evaluate_event("2024-07-13", "2024-07-20", owgr_dict, "OpenChampionship2024", folder_path, tournament_fields)
 
 # 2023 Season
+df_att_pebble2023 = evaluate_event("2023-01-28", "2023-02-04", owgr_dict, "ATTPebble2023", folder_path, tournament_fields)
+df_arnold_palmer2023 = evaluate_event("2023-02-25", "2023-03-04", owgr_dict, "ArnoldPalmer2023", folder_path, tournament_fields)
 df_players2023 = evaluate_event("2023-03-04", "2023-03-11", owgr_dict, "PlayersChampionship2023", folder_path, tournament_fields)
 df_masters2023 = evaluate_event("2023-04-01", "2023-04-08", owgr_dict, "Masters2023", folder_path, tournament_fields)
 df_PGA_Championship2023 = evaluate_event("2023-05-13", "2023-05-20", owgr_dict, "PGAChampionship2023", folder_path, tournament_fields)
@@ -34,6 +40,8 @@ df_US_Open2023 = evaluate_event("2023-06-10", "2023-06-17", owgr_dict, "USOpen20
 df_Open_Championship2023 = evaluate_event("2023-07-15", "2023-07-22", owgr_dict, "OpenChampionship2023", folder_path, tournament_fields)
 
 # Prepare 2025 for modeling
+df_modeling_att_pebble2025 = prepare_modeling_df(df_att_pebble2025)
+df_modeling_arnold_palmer2025 = prepare_modeling_df(df_arnold_palmer2025)
 df_modeling_players2025 = prepare_modeling_df(df_players2025)
 df_modeling_masters2025 = prepare_modeling_df(df_masters2025)
 df_modeling_pga_championship2025 = prepare_modeling_df(df_PGA_Championship2025)
@@ -41,6 +49,8 @@ df_modeling_us_open2025 = prepare_modeling_df(df_US_Open2025)
 df_modeling_open_championship2025 = prepare_modeling_df(df_Open_Championship2025)
 
 # Prepare 2024 for modeling
+df_modeling_att_pebble2024 = prepare_modeling_df(df_att_pebble2024)
+df_modeling_arnold_palmer2024 = prepare_modeling_df(df_arnold_palmer2024)
 df_modeling_players2024 = prepare_modeling_df(df_players2024)
 df_modeling_masters2024 = prepare_modeling_df(df_masters2024)
 df_modeling_pga_championship2024 = prepare_modeling_df(df_PGA_Championship2024)
@@ -48,6 +58,8 @@ df_modeling_us_open2024 = prepare_modeling_df(df_US_Open2024)
 df_modeling_open_championship2024 = prepare_modeling_df(df_Open_Championship2024)
 
 # Prepare 2023 for modeling
+df_modeling_att_pebble2023 = prepare_modeling_df(df_att_pebble2023)
+df_modeling_arnold_palmer2023 = prepare_modeling_df(df_arnold_palmer2023)
 df_modeling_players2023 = prepare_modeling_df(df_players2023)
 df_modeling_masters2023 = prepare_modeling_df(df_masters2023)
 df_modeling_pga_championship2023 = prepare_modeling_df(df_PGA_Championship2023)
@@ -56,9 +68,9 @@ df_modeling_open_championship2023 = prepare_modeling_df(df_Open_Championship2023
 
 # Create Final Modeling DF
 df_modeling = pd.concat([
-df_modeling_players2023, df_modeling_masters2023, df_modeling_pga_championship2023, df_modeling_us_open2023, df_modeling_open_championship2023,
-df_modeling_players2024, df_modeling_masters2024, df_modeling_pga_championship2024, df_modeling_us_open2024, df_modeling_open_championship2024,
-df_modeling_players2025, df_modeling_masters2025, df_modeling_pga_championship2025, df_modeling_us_open2025, df_modeling_open_championship2025,
+df_modeling_att_pebble2023, df_modeling_arnold_palmer2023, df_modeling_players2023, df_modeling_masters2023, df_modeling_pga_championship2023, df_modeling_us_open2023, df_modeling_open_championship2023,
+df_modeling_att_pebble2024, df_modeling_arnold_palmer2024, df_modeling_players2024, df_modeling_masters2024, df_modeling_pga_championship2024, df_modeling_us_open2024, df_modeling_open_championship2024,
+df_modeling_att_pebble2025, df_modeling_arnold_palmer2025, df_modeling_players2025, df_modeling_masters2025, df_modeling_pga_championship2025, df_modeling_us_open2025, df_modeling_open_championship2025,
 ])
 
 # Feature Engineering
